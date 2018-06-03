@@ -4,10 +4,10 @@ var list = {
 	
 		
 	'ckflv': {
-		'des': 'ckflv×ÊÔ´',
+		'des': 'ckflvèµ„æº',
 		'rows': [{
 			'status': 'ok',
-			'name': 'ÓÅ¿á×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'ä¼˜é…·èµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/youku.php',
 			'flag': 'ck_',
 			'xt': '1',
@@ -16,7 +16,7 @@ var list = {
 			'cjurl':''
 			},  {
 			'status': 'ok',
-			'name': 'ÍÁ¶¹×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'åœŸè±†èµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/tudou.php',
 			'flag': 'ck_',
 			'hour1': '24',
@@ -29,7 +29,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': 'ÀÖÊÓ×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'ä¹è§†èµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/letv.php',
 			'flag': 'ck_',
 			'hour1': '24',
@@ -42,7 +42,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': 'ÆæÒÕ×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'å¥‡è‰ºèµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/qiyi.php',
 			'flag': 'ck_',
 			'hour1': '24',
@@ -55,7 +55,7 @@ var list = {
 			'cjurl':''
 			},  {
 			'status': 'ok',
-			'name': 'ÌÚÑ¶×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'è…¾è®¯èµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/qq.php',
 			'flag': 'ck__',
 			'hour1': '24',
@@ -68,7 +68,7 @@ var list = {
 			'cjurl':''
 			},   {
 			'status': 'ok',
-			'name': 'Ã¢¹ûTV×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'èŠ’æœTVèµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/mgtv.php',
 			'flag': 'ck__',
 			'hour1': '24',
@@ -81,7 +81,7 @@ var list = {
 			'cjurl':''
 			},  {
 			'status': 'ok',
-			'name': 'ËÑºü×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'æœç‹èµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/sohu.php',
 			'flag': 'ck_',
 			'hour1': '24',
@@ -94,7 +94,7 @@ var list = {
 			'cjurl':''
 			},   {
 			'status': 'ok',
-			'name': 'PPTV×ÊÔ´¡¾º¬VIPÊÓÆµ¡¿<img src="tj.gif"/>',
+			'name': 'PPTVèµ„æºã€å«VIPè§†é¢‘ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://zy.vivcms.com/inc/pptv.php',
 			'flag': 'ck__',
 			'hour1': '24',
@@ -110,10 +110,10 @@ var list = {
 	},
 	
 	'wxjx': {
-		'des': 'ÎŞĞè½âÎöµÄ×ÊÔ´',
+		'des': 'æ— éœ€è§£æçš„èµ„æº',
 		'rows': [{
 			'status': 'ok',
-			'name': '7kÂ×Àí×ÊÔ´£¨ÎŞË®Ó¡Ãë²¥M3U8£©<img src="tj.gif"/>',
+			'name': '7kä¼¦ç†èµ„æºï¼ˆæ— æ°´å°ç§’æ’­M3U8ï¼‰<img src="tj.gif"/>',
 			'apiurl': 'http://www.7kzy.com/inc/api.php',
 			'flag': '7kzy',
 			'xt': '1',
@@ -122,7 +122,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': '01×ÊÔ´Íø(m3u8)¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨ykm3u8£©³¬¶àÇÀ°æ×ÊÔ´¡¿<img src="tj.gif"/>',
+			'name': '01èµ„æºç½‘(m3u8)ã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆykm3u8ï¼‰è¶…å¤šæŠ¢ç‰ˆèµ„æºã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://www.youkuzy.com/inc/ykm3u8.php',
 			'flag': '91zycc_',
 			'xt': '1',
@@ -131,7 +131,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': '¿á²¥×ÊÔ´HTTPS(m3u8)¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨kakam3u8£©³¬¶àÇÀ°æ×ÊÔ´¡¿<img src="tj.gif"/>',
+			'name': 'é…·æ’­èµ„æºHTTPS(m3u8)ã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆkakam3u8ï¼‰è¶…å¤šæŠ¢ç‰ˆèµ„æºã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://api.kbzyapi.com/inc/s_api_kakam3u8.php',
 			'flag': 'haozycc_',
 			'xt': '1',
@@ -140,7 +140,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': '×ÊÔ´Æ¬Íø×ÊÔ´¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨JSÀ´Ô´kuyun£©³¬¶àÇÀ°æ×ÊÔ´¡¿<img src="tj.gif"/>',
+			'name': 'èµ„æºç‰‡ç½‘èµ„æºã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆJSæ¥æºkuyunï¼‰è¶…å¤šæŠ¢ç‰ˆèµ„æºã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://www.ziyuanpian.com/inc/api.php',
 			'flag': 'zypcom',
 			'xt': '1',
@@ -149,7 +149,7 @@ var list = {
 			'cjurl':''
 			},  {
 			'status': 'ok',
-			'name': '°ËÇ§¿Í×ÊÔ´¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨JSÀ´Ô´link£©³¬¶àÇÀ°æ×ÊÔ´¡¿<img src="tj.gif"/>',
+			'name': 'å…«åƒå®¢èµ„æºã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆJSæ¥æºlinkï¼‰è¶…å¤šæŠ¢ç‰ˆèµ„æºã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://www.go1977.com/inc/api.php',
 			'flag': 'go1997',
 			'xt': '1',
@@ -158,7 +158,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': '¼«ËÙÔÆ×ÊÔ´HTTPS¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨JSÀ´Ô´jsyun£©¸üĞÂ¿ìÇÀ°æ×ÊÔ´¶à¡¿<img src="tj.gif"/>',
+			'name': 'æé€Ÿäº‘èµ„æºHTTPSã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆJSæ¥æºjsyunï¼‰æ›´æ–°å¿«æŠ¢ç‰ˆèµ„æºå¤šã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://www.caijizy.com/inc/jsm3u8.php',
 			'flag': 'caijizy',
 			'xt': '1',
@@ -167,7 +167,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': '¾«Æ·µçÓ°×ÊÔ´HTTPS¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨JSÀ´Ô´jpm3u8)¡¿<img src="tj.gif"/>',
+			'name': 'ç²¾å“ç”µå½±èµ„æºHTTPSã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆJSæ¥æºjpm3u8)ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://www.jingpinzy.com/inc/s_api.php',
 			'flag': 'jingpinzy',
 			'xt': '1',
@@ -176,7 +176,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': 'ok×ÊÔ´Õ¾HTTPS¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨JSÀ´Ô´ckm3u8)¡¿<img src="tj.gif"/>',
+			'name': 'okèµ„æºç«™HTTPSã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆJSæ¥æºckm3u8)ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://api.iokzy.com/inc/apickm3u8s.php',
 			'flag': 'okzyzy',
 			'xt': '1',
@@ -185,7 +185,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status': 'ok',
-			'name': '33uu×ÊÔ´Õ¾HTTPS¡¾ÎŞĞè°²×°²å¼şÒ²¿ÉÒÔ²¥·Å£¨JSÀ´Ô´33uuck)¡¿<img src="tj.gif"/>',
+			'name': '33uuèµ„æºç«™HTTPSã€æ— éœ€å®‰è£…æ’ä»¶ä¹Ÿå¯ä»¥æ’­æ”¾ï¼ˆJSæ¥æº33uuck)ã€‘<img src="tj.gif"/>',
 			'apiurl': 'http://www.33uudy.com/inc/33uuck.php',
 			'flag': 'okzyzy',
 			'xt': '1',
@@ -196,10 +196,10 @@ var list = {
 		]
 	},
 	'yjzyw':{
-		'des': 'ÓÀ¾Ã×ÊÔ´Íø',
+		'des': 'æ°¸ä¹…èµ„æºç½‘',
 		'rows':[{
 			'status': 'ok',
-			'name': 'ÓÀ¾Ã×ÊÔ´Íø×ÛºÏ×ÊÔ´<img src="tj.gif"/>',
+			'name': 'æ°¸ä¹…èµ„æºç½‘ç»¼åˆèµ„æº<img src="tj.gif"/>',
 			'apiurl': 'http://cj.yongjiuzy.com/inc/api.php',
 			'flag': 'yongjiuzycom',
 			'xt': '1',
@@ -208,7 +208,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status': 'ok',
-			'name': 'ÓÀ¾Ã×ÊÔ´Íøyjyun×ÊÔ´<img src="tj.gif"/>',
+			'name': 'æ°¸ä¹…èµ„æºç½‘yjyunèµ„æº<img src="tj.gif"/>',
 			'apiurl': 'http://www.yongjiuzy.com/inc/yjyun.php',
 			'flag': 'yjyun',
 			'xt': '1',
@@ -217,7 +217,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status': 'ok',
-			'name': 'ÓÀ¾Ã×ÊÔ´Íøyjm3u8×ÊÔ´<img src="tj.gif"/>',
+			'name': 'æ°¸ä¹…èµ„æºç½‘yjm3u8èµ„æº<img src="tj.gif"/>',
 			'apiurl': 'http://www.yongjiuzy.com/inc/yjm3u8.php',
 			'flag': 'yjyun',
 			'xt': '1',
@@ -228,10 +228,10 @@ var list = {
 		]
 	},
 	'zuida':{
-		'des': '×î´ó×ÊÔ´Íø',
+		'des': 'æœ€å¤§èµ„æºç½‘',
 		'rows':[{
 			'status':'ok',
-			'name':'×î´ó×ÊÔ´Íø<img src="tj.gif"/>',
+			'name':'æœ€å¤§èµ„æºç½‘<img src="tj.gif"/>',
 			'apiurl':'http://www.zdziyuan.com/inc/api.php',
 			'flag':'zuidazycom',
 			'xt':'1',
@@ -240,7 +240,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'×î´óÑ¸À××ÊÔ´<img src="tj.gif"/>',
+			'name':'æœ€å¤§è¿…é›·èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://www.zdziyuan.com/inc/apidown.php',
 			'flag':'zuidazycom',
 			'xt':'1',
@@ -249,7 +249,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'×î´ózuidam3u8<img src="tj.gif"/>',
+			'name':'æœ€å¤§zuidam3u8<img src="tj.gif"/>',
 			'apiurl':'http://www.zdziyuan.com/inc/api_zuidam3u8.php',
 			'flag':'zuidazycom',
 			'xt':'1',
@@ -258,7 +258,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'×î´ózuidll<img src="tj.gif"/>',
+			'name':'æœ€å¤§zuidll<img src="tj.gif"/>',
 			'apiurl':'http://www.zdziyuan.com/inc/api_zuidall.php',
 			'flag':'zuidazycom',
 			'xt':'1',
@@ -269,10 +269,10 @@ var list = {
 		]
 	},
 	'kuyun':{
-		'des': '¿áÔÆ×ÊÔ´Õ¾HTTPS',
+		'des': 'é…·äº‘èµ„æºç«™HTTPS',
 		'rows':[{
 			'status':'ok',
-			'name':'¿áÔÆÕûÕ¾×ÊÔ´<img src="tj.gif"/>',
+			'name':'é…·äº‘æ•´ç«™èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://www.kuyun9.com/inc/s_ldg_m3u8.asp',
 			'flag':'kuyunzy',
 			'xt':'1',
@@ -281,7 +281,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¿áÔÆkkyun×ÊÔ´<img src="tj.gif"/>',
+			'name':'é…·äº‘kkyunèµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://www.kuyun9.com/inc/s_ldg_kkyun.asp',
 			'flag':'kuyunzy',
 			'xt':'1',
@@ -290,7 +290,7 @@ var list = {
 			'cjurl':''
 			}, {
 			'status':'ok',
-			'name':'¿áÔÆkkm3u8×ÊÔ´<img src="tj.gif"/>',
+			'name':'é…·äº‘kkm3u8èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://www.kuyun9.com/inc/s_ldg_kkm3u8.asp',
 			'flag':'kuyunzy',
 			'xt':'1',
@@ -301,10 +301,10 @@ var list = {
 		]
 	},
 	'zuixin':{
-		'des': '×îĞÂ×ÊÔ´ÍøHTTPS',
+		'des': 'æœ€æ–°èµ„æºç½‘HTTPS',
 		'rows':[{
 			'status':'ok',
-			'name':'×îĞÂ×ÊÔ´Íø×ÛºÏ×ÊÔ´<img src="tj.gif"/> ',
+			'name':'æœ€æ–°èµ„æºç½‘ç»¼åˆèµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://api.zuixinapi.com/inc/api.php',
 			'flag':'zuixinapicom',
 			'xt':'1',
@@ -313,7 +313,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'xinyun×ÊÔ´<img src="tj.gif"/> ',
+			'name':'xinyunèµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://api.zuixinapi.com/inc/apixinyun.php',
 			'flag':'zuixinapicom',
 			'xt':'1',
@@ -322,7 +322,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'xinm3u8×ÊÔ´<img src="tj.gif"/> ',
+			'name':'xinm3u8èµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://api.zuixinapi.com/inc/apixinm3u8.php',
 			'flag':'zuixinapicom',
 			'xt':'1',
@@ -333,10 +333,10 @@ var list = {
 		]
 	},
 	'zuikuai':{
-		'des': '×î¿ì×ÊÔ´Íø',
+		'des': 'æœ€å¿«èµ„æºç½‘',
 		'rows':[{
 			'status':'ok',
-			'name':'×î¿ì×ÊÔ´Íø×ÛºÏ×ÊÔ´<img src="tj.gif"/> ',
+			'name':'æœ€å¿«èµ„æºç½‘ç»¼åˆèµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://cj.zuikzy.com/inc/api.php',
 			'flag':'zuikzycom',
 			'xt':'1',
@@ -345,7 +345,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'×î¿ì×ÊÔ´Íøzkyun×ÊÔ´<img src="tj.gif"/> ',
+			'name':'æœ€å¿«èµ„æºç½‘zkyunèµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://cj.zuikzy.com/inc/zkyun.php ',
 			'flag':'zuikzycom',
 			'xt':'1',
@@ -354,7 +354,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'×î¿ì×ÊÔ´Íøzkm3u8×ÊÔ´<img src="tj.gif"/> ',
+			'name':'æœ€å¿«èµ„æºç½‘zkm3u8èµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://cj.zuikzy.com/inc/zkm3u8.php',
 			'flag':'zuikzycom',
 			'xt':'1',
@@ -365,10 +365,10 @@ var list = {
 		]
 	},
 	'kubozy':{
-		'des': '¿á²¥×ÊÔ´ÍøHTTPS',
+		'des': 'é…·æ’­èµ„æºç½‘HTTPS',
 		'rows':[{
 			'status':'ok',
-			'name':'¿á²¥È«Õ¾×ÊÔ´Ò»¼ü²É¼¯×ÊÔ´£¬½÷É÷²É¼¯±ÜÃâÖØ¸´¡£<img src="tj.gif"/>',
+			'name':'é…·æ’­å…¨ç«™èµ„æºä¸€é”®é‡‡é›†èµ„æºï¼Œè°¨æ…é‡‡é›†é¿å…é‡å¤ã€‚<img src="tj.gif"/>',
 			'apiurl':'http://api.kbzyapi.com/inc/s_api.php',
 			'flag':'zxziyuan',
 			'hour1':'24',
@@ -381,7 +381,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¿á²¥KUYUN×ÊÔ´<img src="tj.gif"/>',
+			'name':'é…·æ’­KUYUNèµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://api.kbzyapi.com/inc/s_api_kuyun.php',
 			'flag':'zxziyuan',
 			'hour1':'24',
@@ -394,7 +394,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¿á²¥m3u8×ÊÔ´<img src="tj.gif"/>',
+			'name':'é…·æ’­m3u8èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://api.kbzyapi.com/inc/s_api_kakam3u8.php',
 			'flag':'zxziyuan',
 			'hour1':'24',
@@ -409,10 +409,10 @@ var list = {
 		]
 	},
 	'yszydg':{
-		'des': 'Ó°ÊÓ×ÊÔ´µÛ¹úHTTPS',
+		'des': 'å½±è§†èµ„æºå¸å›½HTTPS',
 		'rows':[{
 			'status':'ok',
-			'name':'Ó°ÊÓ×ÊÔ´µÛ¹ú¿áÔÆÔÚÏß<img src="tj.gif"/>',
+			'name':'å½±è§†èµ„æºå¸å›½é…·äº‘åœ¨çº¿<img src="tj.gif"/>',
 			'apiurl':'http://www.yszydg.com/inc/apikuyun.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -421,7 +421,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'Ó°ÊÓ×ÊÔ´µÛ¹úm3u8<img src="tj.gif"/>',
+			'name':'å½±è§†èµ„æºå¸å›½m3u8<img src="tj.gif"/>',
 			'apiurl':'http://www.yszydg.com/inc/apickm3u8.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -430,7 +430,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'Ó°ÊÓ×ÊÔ´µÛ¹úm3u8<img src="tj.gif"/>',
+			'name':'å½±è§†èµ„æºå¸å›½m3u8<img src="tj.gif"/>',
 			'apiurl':'http://www.yszydg.com/inc/apidown.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -441,10 +441,10 @@ var list = {
 		]
 	},
 	'zyw1717':{
-		'des': '1717×ÊÔ´Íø',
+		'des': '1717èµ„æºç½‘',
 		'rows':[{	
 		'status':'ok',
-			'name':'1717ÔÆ×ÊÔ´ÍøÕûÕ¾×ÊÔ´--ÎŞÂ×Àí¡¢ÎŞĞ´Õæ¡¢ÎŞM3U8,Ö»°üº¬¸÷´óÊÓÆµÕ¾×ÊÔ´<img src="tj.gif"/>',
+			'name':'1717äº‘èµ„æºç½‘æ•´ç«™èµ„æº--æ— ä¼¦ç†ã€æ— å†™çœŸã€æ— M3U8,åªåŒ…å«å„å¤§è§†é¢‘ç«™èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://zy.itono.cn/inc/api.php',
 			'flag':'1717zycom_',
 			'xt':'1',
@@ -453,7 +453,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'1717ÔÆM3U8×ÊÔ´<img src="tj.gif"/>',
+			'name':'1717äº‘M3U8èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://www.zuidazy.com/inc/apim3u8.php',
 			'flag':'1717zycom_',
 			'xt':'1',
@@ -465,10 +465,10 @@ var list = {
 	},
 		
 	'lingsan':{
-		'des': 'ÁãÉ¢×ÊÔ´ÍøÕûÀí',
+		'des': 'é›¶æ•£èµ„æºç½‘æ•´ç†',
 		'rows':[{
 			'status':'ok',
-			'name':'ÀÖ¶à×ÊÔ´Íø<img src="tj.gif"/>',
+			'name':'ä¹å¤šèµ„æºç½‘<img src="tj.gif"/>',
 			'apiurl':'http://www.leduotv.com/inc/api.php',
 			'flag':'leduo',
 			'xt':'1',
@@ -477,7 +477,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'Ìï¼¦ÔÆ×ÊÔ´<img src="tj.gif"/>',
+			'name':'ç”°é¸¡äº‘èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://zy.freesaas.net/inc/freesaas.php',
 			'flag':'freesaas',
 			'xt':'1',
@@ -486,7 +486,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'êÓÃÁ×ÊÔ´È«Õ¾²É¼¯<img src="tj.gif"/> ',
+			'name':'æš§æ˜§èµ„æºå…¨ç«™é‡‡é›†<img src="tj.gif"/> ',
 			'apiurl':'http://www.imeizy.com/inc/api.php',
 			'flag':'imeizy',
 			'hour1':'24',
@@ -499,7 +499,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'92fzÔÆ×ÊÔ´<img src="tj.gif"/> ',
+			'name':'92fzäº‘èµ„æº<img src="tj.gif"/> ',
 			'apiurl':'http://www.92fz.cn/inc/api.php',
 			'flag':'92fz',
 			'xt':'1',
@@ -508,7 +508,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'CÖµ×ÊÔ´Õ¾<img src="tj.gif"/> ',
+			'name':'Cå€¼èµ„æºç«™<img src="tj.gif"/> ',
 			'apiurl':'http://www.czhiziyuan.com/inc/api.php',
 			'flag':'zuidazycom',
 			'xt':'1',
@@ -517,7 +517,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'È«Õ¾×ÊÔ´-Ç¿Ç¿×ÊÔ´Õ¾<img src="tj.gif"/> ',
+			'name':'å…¨ç«™èµ„æº-å¼ºå¼ºèµ„æºç«™<img src="tj.gif"/> ',
 			'apiurl':'http://caiji.000o.cc/inc/api.php',
 			'flag':'000occ_',
 			'xt':'1',
@@ -526,7 +526,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'88ÀÏÒ¯×ÊÔ´Íø<img src="tj.gif"/>',
+			'name':'88è€çˆ·èµ„æºç½‘<img src="tj.gif"/>',
 			'apiurl':'http://www.88laoye.com/inc/api.php',
 			'flag':'zuidazycom',
 			'xt':'1',
@@ -535,7 +535,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'°ÙÍòÔÆ×ÊÔ´<img src="tj.gif"/>',
+			'name':'ç™¾ä¸‡äº‘èµ„æº<img src="tj.gif"/>',
 			'apiurl':'http://www.baiwanzy.com/inc/api.php',
 			'flag':'bwyun',
 			'xt':'1',
@@ -544,7 +544,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'91×ÊÔ´²É¼¯<img src="tj.gif"/>',
+			'name':'91èµ„æºé‡‡é›†<img src="tj.gif"/>',
 			'apiurl':'http://www.91zy.cc/inc/api_maccms.asp',
 			'flag':'91zy',
 			'xt':'1',
@@ -553,7 +553,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status': 'ok',
-			'name': '£¨°ÙÓò¸ó-È«ÄÜÊµÊ±¸üĞÂ×ÊÔ´£©Ö÷·şÎñÆ÷-²É¼¯½Ó¿Ú<img src="tj.gif"/>',
+			'name': 'ï¼ˆç™¾åŸŸé˜-å…¨èƒ½å®æ—¶æ›´æ–°èµ„æºï¼‰ä¸»æœåŠ¡å™¨-é‡‡é›†æ¥å£<img src="tj.gif"/>',
 			'apiurl': 'http://baiyug.cn/inc/api.php',
 			'flag': 'utvs_',
 			'hour1': '24',
@@ -568,10 +568,10 @@ var list = {
 		]
 	},
 	'news':{
-		'des': 'ÒÔÏÂ²É¼¯ĞèÒª²¥·ÅÆ÷',
+		'des': 'ä»¥ä¸‹é‡‡é›†éœ€è¦æ’­æ”¾å™¨',
 		'rows':[{			
 			'status':'ok',
-			'name':'¡¾¼ª¼ªÓ°Òô¡¿',
+			'name':'ã€å‰å‰å½±éŸ³ã€‘',
 			'apiurl':'http://api.jijizy.com/inc/api.asp',
 			'flag':'jijizycom_',
 			'xt':'1',
@@ -580,7 +580,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾¼ª¼ªÓ°Òô¡¢·Ç·²Ó°Òô¡¢Î÷¹ÏÓ°Òô¡¿',
+			'name':'ã€å‰å‰å½±éŸ³ã€éå‡¡å½±éŸ³ã€è¥¿ç“œå½±éŸ³ã€‘',
 			'apiurl':'http://www.91zyw.com/inc/api_maccms.asp',
 			'flag':'91zywcom_',
 			'xt':'1',
@@ -591,10 +591,10 @@ var list = {
 		]
 	},
 	'xzzy':{
-		'des': '£¨XÕ¾£©×ÊÔ´ÕûÀí',
+		'des': 'ï¼ˆXç«™ï¼‰èµ„æºæ•´ç†',
 		'rows':[{
 			'status':'ok',
-			'name':'¾ÅÖİ²É¼¯ 9zhouzy.com <img src="tj.gif"/>',
+			'name':'ä¹å·é‡‡é›† 9zhouzy.com <img src="tj.gif"/>',
 			'apiurl':'http://zyapi.jssida.top/api.php',
 			'flag':'monibi',
 			'xt':'1',
@@ -603,7 +603,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¿áÔÆÔÚÏß www.flzydq.com <img src="tj.gif"/>',
+			'name':'é…·äº‘åœ¨çº¿ www.flzydq.com <img src="tj.gif"/>',
 			'apiurl':'http://www.flzydq.com/inc/kuyun.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -612,7 +612,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'Ñ¸À××ÊÔ´ www.flzydq.com <img src="tj.gif"/>',
+			'name':'è¿…é›·èµ„æº www.flzydq.com <img src="tj.gif"/>',
 			'apiurl':'http://www.flzydq.com/inc/xunlei.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -621,7 +621,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾Î÷¹Ï×ÊÔ´¡¿¹Ù·½µØÖ·£ºwww.flzydq.com',
+			'name':'ã€è¥¿ç“œèµ„æºã€‘å®˜æ–¹åœ°å€ï¼šwww.flzydq.com',
 			'apiurl':'http://www.flzydq.com/inc/xigua.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -630,7 +630,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾ÏÈ·æ×ÊÔ´¡¿¹Ù·½µØÖ·£ºwww.flzydq.com',
+			'name':'ã€å…ˆé”‹èµ„æºã€‘å®˜æ–¹åœ°å€ï¼šwww.flzydq.com',
 			'apiurl':'http://www.flzydq.com/inc/xfplay.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -639,7 +639,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾¼ª¼ª×ÊÔ´¡¿¹Ù·½µØÖ·£ºwww.flzydq.com',
+			'name':'ã€å‰å‰èµ„æºã€‘å®˜æ–¹åœ°å€ï¼šwww.flzydq.com',
 			'apiurl':'http://www.flzydq.com/inc/jjvod.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -648,7 +648,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾·Ç·²×ÊÔ´¡¿¹Ù·½µØÖ·£ºwww.flzydq.com',
+			'name':'ã€éå‡¡èµ„æºã€‘å®˜æ–¹åœ°å€ï¼šwww.flzydq.com',
 			'apiurl':'http://www.flzydq.com/inc/ffhd.php',
 			'flag':'ckflvzy',
 			'xt':'1',
@@ -657,7 +657,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'X×ÊÔ´Õ¾ http://www.53sp.com/',
+			'name':'Xèµ„æºç«™ http://www.53sp.com/',
 			'apiurl':'http://www.53sp.com/inc/api.php',
 			'flag':'53sp',
 			'xt':'1',
@@ -666,7 +666,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'É«ÀÇÎİ×ÊÔ´ www.sexziyuan.com',
+			'name':'è‰²ç‹¼å±‹èµ„æº www.sexziyuan.com',
 			'apiurl':'http://www.sexziyuan.com/inc/api.php',
 			'flag':'selangwu_',
 			'xt':'1',
@@ -675,7 +675,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ß£ËÀÄãÔÚÏß²É¼¯ lsnzxcj.com',
+			'name':'æ’¸æ­»ä½ åœ¨çº¿é‡‡é›† lsnzxcj.com',
 			'apiurl':'http://lsnzxcj.com/inc/api.php',
 			'flag':'sszyz',
 			'xt':'1',
@@ -684,7 +684,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¾Á¾ÁÔÚÏß²É¼¯ 99zxcj.com',
+			'name':'ç–ç–åœ¨çº¿é‡‡é›† 99zxcj.com',
 			'apiurl':'http://99zxcj.com/inc/api.php',
 			'flag':'sszyz',
 			'xt':'1',
@@ -693,7 +693,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ß£ËÀÄãÏÈ·æ²É¼¯ lsnxfcj.com',
+			'name':'æ’¸æ­»ä½ å…ˆé”‹é‡‡é›† lsnxfcj.com',
 			'apiurl':'http://lsnxfcj.com/xfplay.php',
 			'flag':'sszyz',
 			'xt':'1',
@@ -702,7 +702,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¾Á¾ÁÏÈ·æ²É¼¯ 99zxcj.com',
+			'name':'ç–ç–å…ˆé”‹é‡‡é›† 99zxcj.com',
 			'apiurl':'http://99xfcj.com/xfplay.php',
 			'flag':'sszyz',
 			'xt':'1',
@@ -711,7 +711,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'yellow×ÖÄ»ÔÚÏß²É¼¯ http://cy.sougaga.com/yechajian/',
+			'name':'yellowå­—å¹•åœ¨çº¿é‡‡é›† http://cy.sougaga.com/yechajian/',
 			'apiurl':'http://zmwcj8.com/inc/api.php',
 			'flag':'sszyz',
 			'xt':'1',
@@ -720,7 +720,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ÈéÉ«°É×ÊÔ´Õ¾ http://www.ruseba.vip',
+			'name':'ä¹³è‰²å§èµ„æºç«™ http://www.ruseba.vip',
 			'apiurl':'http://www.ruseba10.com/inc/ruseba_api.php',
 			'flag':'cj_jiexi_cx_',
 			'xt':'1',
@@ -729,7 +729,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'520×ÛºÏ×ÊÔ´ www.520ziyuan.com',
+			'name':'520ç»¼åˆèµ„æº www.520ziyuan.com',
 			'apiurl':'http://www.520ziyuan.com//inc/api.php',
 			'flag':'dasenlin_top',
 			'xt':'1',
@@ -738,7 +738,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'BT616×ÊÔ´Íø www.BT616.com ',
+			'name':'BT616èµ„æºç½‘ www.BT616.com ',
 			'apiurl':'http://www.BT616.COM/inc/api.php',
 			'flag':'BT616_',
 			'xt':'1',
@@ -747,7 +747,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'Ê±¹â×ÊÔ´Íø www.yooomm.com ',
+			'name':'æ—¶å…‰èµ„æºç½‘ www.yooomm.com ',
 			'apiurl':'http://yooomm.com/m/inc/api.php',
 			'flag':'jisudhwcom_',
 			'xt':'1',
@@ -756,7 +756,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'IXX×ÊÔ´ixxÔÆ http://ixxzy66.com ',
+			'name':'IXXèµ„æºixxäº‘ http://ixxzy66.com ',
 			'apiurl':'http://api.iixxzyapi.com/inc/apiixx.php',
 			'flag':'ixxzy',
 			'xt':'1',
@@ -765,7 +765,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'IXX×ÊÔ´m3u8ÔÆ http://ixxzy66.com ',
+			'name':'IXXèµ„æºm3u8äº‘ http://ixxzy66.com ',
 			'apiurl':'http://api.iixxzyapi.com/inc/apickm3u8.php',
 			'flag':'ixxzy',
 			'xt':'1',
@@ -774,7 +774,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'É«É«×ÊÔ´Íø http://www.ssfb8.com ',
+			'name':'è‰²è‰²èµ„æºç½‘ http://www.ssfb8.com ',
 			'apiurl':'http://sscj8.com/inc/api.php',
 			'flag':'sszyz',
 			'xt':'1',
@@ -783,7 +783,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ssxx×ÊÔ´Íø http://www.ssxxzy.com ',
+			'name':'ssxxèµ„æºç½‘ http://www.ssxxzy.com ',
 			'apiurl':'http://ssxxzy.com/inc/api.php',
 			'flag':'ssxxzycom_',
 			'xt':'1',
@@ -794,10 +794,10 @@ var list = {
 		]
 	},
 	'xzfsd':{
-		'des': '£¨XÕ¾£©·ÛË¿¶à×ÊÔ´¡¾www.fensizy.com¡¿',
+		'des': 'ï¼ˆXç«™ï¼‰ç²‰ä¸å¤šèµ„æºã€www.fensizy.comã€‘',
 		'rows':[{
 			'status':'ok',
-			'name':'Î÷¹Ï×ÊÔ´',
+			'name':'è¥¿ç“œèµ„æº',
 			'apiurl':'http://www.fensizy.com/api/max4.asp',
 			'flag':'fensizycom_',
 			'xt':'1',
@@ -806,7 +806,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ÏÈ·æÓ°Òô',
+			'name':'å…ˆé”‹å½±éŸ³',
 			'apiurl':'http://www.fensizy.com/api/max4.asp',
 			'flag':'fensizycom_',
 			'xt':'1',
@@ -815,7 +815,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¼ª¼ªÓ°Òô',
+			'name':'å‰å‰å½±éŸ³',
 			'apiurl':'http://www.fensizy.com/api/max4.asp',
 			'flag':'fensizycom_',
 			'xt':'1',
@@ -824,7 +824,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ÀÖÊÓ×ÊÔ´',
+			'name':'ä¹è§†èµ„æº',
 			'apiurl':'http://www.fensizy.com/api/max4.asp',
 			'flag':'fensizycom_',
 			'xt':'1',
@@ -833,7 +833,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ÓÅ¿á×ÊÔ´',
+			'name':'ä¼˜é…·èµ„æº',
 			'apiurl':'http://www.fensizy.com/api/max4.asp',
 			'flag':'fensizycom_',
 			'xt':'1',
@@ -844,10 +844,10 @@ var list = {
 		]
 	},
 	'xz800':{
-		'des': '£¨XÕ¾£©800×ÊÔ´¡¾http://www.800zy.com¡¿',
+		'des': 'ï¼ˆXç«™ï¼‰800èµ„æºã€http://www.800zy.comã€‘',
 		'rows':[{
 			'status':'ok',
-			'name':'800zy×ÊÔ´Íø×ÛºÏ×ÊÔ´',
+			'name':'800zyèµ„æºç½‘ç»¼åˆèµ„æº',
 			'apiurl':'http://cj.800zy.com/inc/api.php',
 			'flag':'yongjiuzycom_',
 			'xt':'1',
@@ -856,7 +856,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'800zy×ÊÔ´',
+			'name':'800zyèµ„æº',
 			'apiurl':'http://cj.800zy.com/inc/800zy.php',
 			'flag':'800zy',
 			'xt':'1',
@@ -865,7 +865,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'800zym3u8×ÊÔ´',
+			'name':'800zym3u8èµ„æº',
 			'apiurl':'http://cj.800zy.com/inc/800zym3u8.php',
 			'flag':'800zym3u8',
 			'xt':'1',
@@ -876,10 +876,10 @@ var list = {
 		]
 	},
 	'gegaomei':{
-		'des': '£¨XÕ¾£©¸ç¸ãÃÃ×ÊÔ´¡¾http://www.gegaomeizy.com/¡¿',
+		'des': 'ï¼ˆXç«™ï¼‰å“¥æå¦¹èµ„æºã€http://www.gegaomeizy.com/ã€‘',
 		'rows':[{
 			'status':'ok',
-			'name':'qsv²¥·ÅÆ÷ ×ÊÔ´¡¾gegaomeizy.com¡¿',
+			'name':'qsvæ’­æ”¾å™¨ èµ„æºã€gegaomeizy.comã€‘',
 			'apiurl':'http://gegaomeizy.com/inc/api.php',
 			'flag':'gegaomeizy_top',
 			'xt':'1',
@@ -888,7 +888,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾×ÊÔ´×¼±¸ÖĞ¡¿',
+			'name':'ã€èµ„æºå‡†å¤‡ä¸­ã€‘',
 			'apiurl':'http://gegaomeizy2.com/inc/api.php',
 			'flag':'hd_',
 			'xt':'1',
@@ -897,7 +897,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾×ÊÔ´×¼±¸ÖĞ¡¿',
+			'name':'ã€èµ„æºå‡†å¤‡ä¸­ã€‘',
 			'apiurl':'http://www.gegaomeizy1.com/inc/api.php',
 			'flag':'oxyun_',
 			'xt':'1',
@@ -906,7 +906,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾×ÊÔ´×¼±¸ÖĞ¡¿',
+			'name':'ã€èµ„æºå‡†å¤‡ä¸­ã€‘',
 			'apiurl':'http://#',
 			'flag':'ckhd_',
 			'xt':'1',
@@ -915,7 +915,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¡¾×ÊÔ´×¼±¸ÖĞ¡¿',
+			'name':'ã€èµ„æºå‡†å¤‡ä¸­ã€‘',
 			'apiurl':'http://www.gegaomeizy3.com/inc/api.php',
 			'flag':'oxyuncn_',
 			'xt':'1',
@@ -926,10 +926,10 @@ var list = {
 		]
 	},
 	'xz1769':{
-		'des': '£¨XÕ¾£©1769×ÊÔ´¡¾http://www.1769hm.com/¡¿',
+		'des': 'ï¼ˆXç«™ï¼‰1769èµ„æºã€http://www.1769hm.com/ã€‘',
 		'rows':[{	
 		'status':'ok',
-			'name':'³ÉÈË×ÊÔ´¡¾1769vod.com¡¿',
+			'name':'æˆäººèµ„æºã€1769vod.comã€‘',
 			'apiurl':'http://1769vod.com/zyapimacc.php',
 			'flag':'1769zycom_',
 			'xt':'1',
@@ -938,7 +938,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¼ª¼ª×ÊÔ´Íø1¡¾www.jijizy.com¡¿',
+			'name':'å‰å‰èµ„æºç½‘1ã€www.jijizy.comã€‘',
 			'apiurl':'http://api.jijizy.com/inc/api.asp',
 			'flag':'jijizycom_',
 			'xt':'1',
@@ -947,7 +947,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'91×ÊÔ´Íø¡¾www.91zy.cc¡¿',
+			'name':'91èµ„æºç½‘ã€www.91zy.ccã€‘',
 			'apiurl':'http://www.91zy.cc/inc/api_maccms.asp',
 			'flag':'91zycc_',
 			'xt':'1',
@@ -956,7 +956,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ºÃ×ÊÔ´¡¾www.haozy.cc¡¿',
+			'name':'å¥½èµ„æºã€www.haozy.ccã€‘',
 			'apiurl':'http://api.haozy.cc/inc/api.php',
 			'flag':'haozycc_',
 			'xt':'1',
@@ -965,7 +965,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'ÏÈ·æÓ°Òô×ÊÔ´Íø¡¾www.xfyyzy.cc¡¿',
+			'name':'å…ˆé”‹å½±éŸ³èµ„æºç½‘ã€www.xfyyzy.ccã€‘',
 			'apiurl':'http://www.xfyyzy.cc/inc/api.asp',
 			'flag':'xfyyzycc_',
 			'xt':'1',
@@ -974,7 +974,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'¼«ËÙ×ÊÔ´Íø¡¾www.jisudhw.com¡¿',
+			'name':'æé€Ÿèµ„æºç½‘ã€www.jisudhw.comã€‘',
 			'apiurl':'http://www.jisudhw.com/inc/api.php',
 			'flag':'jisudhwcom_',
 			'xt':'1',
@@ -983,7 +983,7 @@ var list = {
 			'cjurl':''
 			},{
 			'status':'ok',
-			'name':'6u×ÊÔ´Õ¾¡¾zy.ataoju.com¡¿',
+			'name':'6uèµ„æºç«™ã€zy.ataoju.comã€‘',
 			'apiurl':'http://zy.ataoju.com/inc/api.php',
 			'flag':'ataojucom_',
 			'xt':'1',
@@ -1020,7 +1020,7 @@ $.each(list, function(k1, v1){
 	
 	html +="<table width='98%' class='table'><tbody>";
 	if(k1=='ads'){
-		html += "<tr class='table_title red'><td colspan='7' class='td'><span style='float:left'>&nbsp;ÀëÏß×ÊÔ´²É¼¯Æ½Ì¨>>> ÒµÎñQQ£º1031443821&nbspÊ¹ÓÃÇ°Çë×ÔĞĞÌí¼Ó²¥·ÅÆ÷£¡£¡£¡·ñÔò¿ÉÄÜÎŞ·¨²¥·Å;</span><span style='float:right'>ÓÉ×ÊÔ´Õ¾Ìá¹©Êı¾İ½Ó¿Ú,±£³ÖÍ¬²½¸üĞÂ&nbsp;</span></td></tr>";
+		html += "<tr class='table_title red'><td colspan='7' class='td'><span style='float:left'>&nbsp;ç¦»çº¿èµ„æºé‡‡é›†å¹³å°>>> ä¸šåŠ¡QQï¼š1031443821&nbspä½¿ç”¨å‰è¯·è‡ªè¡Œæ·»åŠ æ’­æ”¾å™¨ï¼ï¼ï¼å¦åˆ™å¯èƒ½æ— æ³•æ’­æ”¾;</span><span style='float:right'>ç”±èµ„æºç«™æä¾›æ•°æ®æ¥å£,ä¿æŒåŒæ­¥æ›´æ–°&nbsp;</span></td></tr>";
 	//	v1.rows.sort(function(){return Math.random()-0.5;});
 	//	v1.rows.sort(function(){return Math.random()-0.5;});
 	}
@@ -1043,11 +1043,11 @@ $.each(list, function(k1, v1){
 		}
 		du = '';
 		if(v2.cjurl!=''){
-			du = "<a href='"+v2.cjurl+"'>ÏÂÔØ²å¼ş</a></td>";
+			du = "<a href='"+v2.cjurl+"'>ä¸‹è½½æ’ä»¶</a></td>";
 		}
 		
-		html += "<tr><td width='20'>0"+(k2+1)+"¡¢</td>"+'<td width="30" align=center><em class="u'+v2.status+'"><em></td>'+"<td><a href='"+url1+"'> "+name1+" </a></td><td width='60'>" +du+"</td>"
-		+"<td width='60'><a href='"+url2+"'>²É¼¯µ±Ìì</a></td>"+"<td width='60'><a href='"+url3+"'>²É¼¯±¾ÖÜ</a></td>"+"<td width='60'><a href='"+url4+"'>²É¼¯ËùÓĞ</a></td></tr>";
+		html += "<tr><td width='20'>0"+(k2+1)+"ã€</td>"+'<td width="30" align=center><em class="u'+v2.status+'"><em></td>'+"<td><a href='"+url1+"'> "+name1+" </a></td><td width='60'>" +du+"</td>"
+		+"<td width='60'><a href='"+url2+"'>é‡‡é›†å½“å¤©</a></td>"+"<td width='60'><a href='"+url3+"'>é‡‡é›†æœ¬å‘¨</a></td>"+"<td width='60'><a href='"+url4+"'>é‡‡é›†æ‰€æœ‰</a></td></tr>";
 		html2 += '<option value="'+url2+'">'+name1+'</option>';
 	});
 	html+='</tbody></table>';
@@ -1066,5 +1066,5 @@ if(h>0){
 	}
 }
 else{
-	document.write('<font style="color:red;font-size:26px">×ÊÔ´¿â¹Ø±ÕÖĞ£¬ÇëÉÔºó·ÃÎÊ¡£<br></font><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>');
+	document.write('<font style="color:red;font-size:26px">èµ„æºåº“å…³é—­ä¸­ï¼Œè¯·ç¨åè®¿é—®ã€‚<br></font><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>');
 }
