@@ -3,24 +3,6 @@ var vfed = {
 		'head': '各大视频网站资源采集',
 		'tips': 'vfed主题推荐采集资源',
 		'rows': [{
-			'name': '强强云资源',
-			'rema': '含VIP视频',
-			'apis': 'http://caiji.000o.cc/inc/api.php',
-			'flag': 'qiang',
-			'coll': 'all',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': 'CKFLV云资源',
-			'rema': '含VIP视频',
-			'apis': 'http://zy.vivcms.com/inc/api.php',
-			'flag': 'ckflv',
-			'coll': 'all',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
 			'name': '1717云资源',
 			'rema': '含VIP视频',
 			'apis': 'http://zy.itono.cn/inc/api.php',
@@ -34,6 +16,24 @@ var vfed = {
 			'rema': '含VIP视频',
 			'apis': 'http://zy.ataoju.com/inc/api.php',
 			'flag': 'liuu',
+			'coll': 'all',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '强强云资源',
+			'rema': '含VIP视频,有暗链',
+			'apis': 'http://caiji.000o.cc/inc/api.php',
+			'flag': 'qiang',
+			'coll': 'all',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': 'CKFLV云资源',
+			'rema': '不推荐,各种无图,tu.php无效',
+			'apis': 'http://zy.vivcms.com/inc/api.php',
+			'flag': 'ckflv',
 			'coll': 'all',
 			'tips': 'ok',
 			'sell': '',
@@ -53,76 +53,6 @@ var vfed = {
 		'head': '广告投放 >>> 官方QQ群：<a href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
 		'tips': '',
 		'rows': [{
-			'name': '超清无广告解析',
-			'rema': '支持https',
-			'apis': 'https://jx.itaoju.top/?url=',
-			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
-			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
-			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
-			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
-			'tips': 'ok',
-			'sell': '1'
-		}, {
-			'name': '超清无广告解析',
-			'rema': '支持https',
-			'apis': 'https://jx.itaoju.top/?url=',
-			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
-			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
-			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
-			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
-			'tips': 'ok',
-			'sell': '1'
-		}, {
-			'name': '超清无广告解析',
-			'rema': '支持https',
-			'apis': 'https://jx.itaoju.top/?url=',
-			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
-			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
-			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
-			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
-			'tips': 'ok',
-			'sell': '1'
-		}, {
-			'name': '超清无广告解析',
-			'rema': '支持https',
-			'apis': 'https://jx.itaoju.top/?url=',
-			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
-			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
-			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
-			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
-			'tips': 'ok',
-			'sell': '1'
-		}, {
-			'name': '超清无广告解析',
-			'rema': '支持https',
-			'apis': 'https://jx.itaoju.top/?url=',
-			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
-			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
-			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
-			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
-			'tips': 'ok',
-			'sell': '1'
-		}, {
 			'name': '超清无广告解析',
 			'rema': '支持https',
 			'apis': 'https://jx.itaoju.top/?url=',
@@ -291,6 +221,15 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '极速云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.caijizy.com/inc/api.php',
+			'flag': 'jisu',
+			'coll': 'all',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '酷酷云资源',
 			'rema': 'https资源',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_m3u8.asp',
@@ -363,10 +302,19 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '33UU云资源',
+			'name': '605云资源',
 			'rema': 'https资源',
-			'apis': 'http://www.33uudy.com/inc/api.php',
-			'flag': 'sanu',
+			'apis': 'http://www.605zy.cc/inc/api.php',
+			'flag': 'liuzy',
+			'coll': 'all',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '129云资源',
+			'rema': '不支持https',
+			'apis': 'http://www.129zy.com/inc/api.php',
+			'flag': 'yierjiu',
 			'coll': 'all',
 			'tips': 'ok',
 			'sell': '',
@@ -381,10 +329,10 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '01云资源',
+			'name': '精品云资源',
 			'rema': 'https资源',
-			'apis': 'http://www.youkuzy.com/inc/api.php',
-			'flag': 'lingyi',
+			'apis': 'http://www.jingpinzy.com/inc/s_api.php',
+			'flag': 'jingpin',
 			'coll': 'all',
 			'tips': 'ok',
 			'sell': '',
@@ -417,6 +365,15 @@ var vfed = {
 			'rema': '不支持https',
 			'apis': 'http://cj.zuikzy.com/inc/zkm3u8.php',
 			'flag': 'zuikuai',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '极速云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.caijizy.com/inc/jsm3u8.php',
+			'flag': 'jisu',
 			'coll': 'm3u8',
 			'tips': 'ok',
 			'sell': '',
@@ -494,10 +451,19 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '33UU云资源',
+			'name': '605云资源',
 			'rema': 'https资源',
-			'apis': 'http://www.33uudy.com/inc/33uuck.php',
-			'flag': 'sanu',
+			'apis': 'http://www.605zy.cc/inc/605m3u8.php',
+			'flag': 'liuzy',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '129云资源',
+			'rema': '不支持https',
+			'apis': 'http://www.129zy.com/inc/129m3u8.php',
+			'flag': 'yierjiu',
 			'coll': 'm3u8',
 			'tips': 'ok',
 			'sell': '',
@@ -512,18 +478,9 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '01云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.youkuzy.com/inc/ykm3u8.php',
-			'flag': 'lingyi',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
 			'name': '精品云资源',
 			'rema': 'https资源',
-			'apis': 'http://www.jingpinzy.com/inc/s_api.php',
+			'apis': 'http://www.jingpinzy.com/inc/s_api_jpm3u8.php',
 			'flag': 'jingpin',
 			'coll': 'm3u8',
 			'tips': 'ok',
@@ -557,6 +514,15 @@ var vfed = {
 			'rema': '不支持https',
 			'apis': 'http://cj.zuikzy.com/inc/zkyun.php ',
 			'flag': 'zuikuai',
+			'coll': 'line',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '极速云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.caijizy.com/inc/jsyun.php',
+			'flag': 'jisu',
 			'coll': 'line',
 			'tips': 'ok',
 			'sell': '',
@@ -634,10 +600,19 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '33UU云资源',
+			'name': '605云资源',
 			'rema': 'https资源',
-			'apis': 'http://www.33uudy.com/inc/33uu.php',
-			'flag': 'sanu',
+			'apis': 'http://www.605zy.cc/inc/605yun.php',
+			'flag': 'liuzy',
+			'coll': 'line',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '129云资源',
+			'rema': '不支持https',
+			'apis': 'http://www.129zy.com/inc/129zy.php',
+			'flag': 'yierjiu',
 			'coll': 'line',
 			'tips': 'ok',
 			'sell': '',
@@ -647,15 +622,6 @@ var vfed = {
 			'rema': 'https资源,有暗链',
 			'apis': 'http://api.iokzy.com/inc/apikuyuns.php',
 			'flag': 'okzy',
-			'coll': 'line',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '01云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.youkuzy.com/inc/ykyun.php',
-			'flag': 'lingyi',
 			'coll': 'line',
 			'tips': 'ok',
 			'sell': '',
@@ -688,6 +654,15 @@ var vfed = {
 			'rema': '迅雷下载',
 			'apis': 'http://www.zdziyuan.com/inc/s_apidown.php',
 			'flag': 'zuida',
+			'coll': 'down',
+			'tips': 'ok',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}, {
+			'name': '精品云资源',
+			'rema': '迅雷下载',
+			'apis': 'http://www.jingpinzy.com/inc/apidown.php',
+			'flag': 'jingpin',
 			'coll': 'down',
 			'tips': 'ok',
 			'sell': '',
@@ -743,15 +718,6 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': 'SSXX云资源',
-			'rema': 'M3U8,不支持https',
-			'apis': 'http://ssxxzy.com/inc/api.php',
-			'flag': 'ssxx',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
 			'name': 'IXX云资源',
 			'rema': 'M3U8,不支持https',
 			'apis': 'http://api.iixxzyapi.com/inc/api.php',
@@ -770,29 +736,11 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '色狼屋资源',
-			'rema': '扶墙云播,不支持https',
-			'apis': 'http://www.sexziyuan.com/inc/api.php',
-			'flag': 'selang',
-			'coll': 'line',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
 			'name': 'BT616资源',
 			'rema': '云播,不支持https',
 			'apis': 'http://www.bt616.com/inc/api.php',
 			'flag': 'btliu',
 			'coll': 'line',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': 'X资源站',
-			'rema': '27盘,不支持https',
-			'apis': 'http://www.53sp.com/inc/api.php',
-			'flag': 'xziyuan',
-			'coll': 'code',
 			'tips': 'ok',
 			'sell': '',
 			'down': ''
@@ -841,8 +789,8 @@ $('.timming').click(function() {
 	if(confirm('确认添加到定时任务吗？')) {
 		$.post('../../../template/vfed/asset/fed/create.php?id=tim', 'name=' + $(this).attr('data-name') + '&flag=' + $(this).attr('data-flag') + '&param=' + encodeURIComponent($(this).attr('data-param')), function(data) {
 			alert(data.msg);
-		}, 'json').error(function() {
+		}).error(function() {
 			alert('请求失败');
-		});
+		}, 'json');
 	}
 });
