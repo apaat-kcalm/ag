@@ -311,6 +311,15 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '156云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.156zy.com/inc/api.php',
+			'flag': 'yiwuliu',
+			'coll': 'all',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '129云资源',
 			'rema': '不支持https',
 			'apis': 'http://www.129zy.com/inc/api.php',
@@ -460,6 +469,15 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '156云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.156zy.com/inc/33uuck.php',
+			'flag': 'yiwuliu',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '129云资源',
 			'rema': '不支持https',
 			'apis': 'http://www.129zy.com/inc/129m3u8.php',
@@ -604,6 +622,15 @@ var vfed = {
 			'rema': 'https资源',
 			'apis': 'http://www.605zy.cc/inc/605yun.php',
 			'flag': 'liuzy',
+			'coll': 'line',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '156云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.156zy.com/inc/33uu.php',
+			'flag': 'yiwuliu',
 			'coll': 'line',
 			'tips': 'ok',
 			'sell': '',
