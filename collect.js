@@ -1,17 +1,208 @@
 var vfed = {
-	'vfed': {
-		'head': '各大视频网站资源采集',
+	'advs': {
+		'head': '广告投放 >>> 官方QQ群：<a href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
+		'tips': '',
+		'rows': [{
+			'name': '超清无广告解析',
+			'rema': '支持https',
+			'apis': 'https://jx.itaoju.top/?url=',
+			'tip1': '优酷演示',
+			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
+			'tip2': '腾讯演示',
+			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
+			'tip3': '奇艺演示',
+			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
+			'tip4': '搜狐演示',
+			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
+			'tips': 'ok',
+			'sell': '1'
+		}]
+	},
+	'down': {
+		'head': '下载资源专区',
+		'tips': '',
+		'rows': [{
+			'name': '最大云资源',
+			'rema': '迅雷下载',
+			'apis': 'http://www.zdziyuan.com/inc/s_apidown.php',
+			'flag': 'zuida',
+			'coll': 'down',
+			'tips': 'ok',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}, {
+			'name': '精品云资源',
+			'rema': '迅雷下载',
+			'apis': 'http://www.jingpinzy.com/inc/apidown.php',
+			'flag': 'jingpin',
+			'coll': 'down',
+			'tips': 'ok',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}]
+	},
+	'm3u8': {
+		'head': '切片资源专区',
 		'tips': 'vfed主题推荐采集资源',
 		'rows': [{
-			'name': '1717云资源',
-			'rema': '含VIP视频',
-			'apis': 'http://zy.itono.cn/inc/api.php',
-			'flag': 'yiqi',
-			'coll': 'all',
+			'name': '最大云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidam3u8.php',
+			'flag': 'zuida',
+			'coll': 'm3u8',
 			'tips': 'ok',
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '最新云资源',
+			'rema': 'https资源',
+			'apis': 'http://api.zuixinapi.com/inc/apixinm3u8.php',
+			'flag': 'zuixin',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '最快云资源',
+			'rema': '不支持https',
+			'apis': 'http://cj.zuikzy.com/inc/zkm3u8.php',
+			'flag': 'zuikuai',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '极速云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.caijizy.com/inc/jsm3u8.php',
+			'flag': 'jisu',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '酷酷云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.kuyun9.com/inc/s_ldg_kkm3u8.asp',
+			'flag': 'kuku',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '酷播云资源',
+			'rema': 'https资源',
+			'apis': 'http://api.kbzyapi.com/inc/s_api_kakam3u8.php',
+			'flag': 'kubo',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '百万云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.baiwanzy.com/inc/bwm3u8.php',
+			'flag': 'baiwan',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '永久云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.yongjiuzy.com/inc/s_yjm3u8.php',
+			'flag': 'yongjiu',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '帝国云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.yszydg.com/inc/apickm3u8.php',
+			'flag': 'diguo',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '暧昧云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.imeizy.com/inc/apim3u8.php',
+			'flag': 'aimei',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '资源片资源',
+			'rema': 'https资源',
+			'apis': 'http://www.ziyuanpian.com/inc/ckm3u8.php',
+			'flag': 'ziyuan',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '几千客资源',
+			'rema': 'https资源',
+			'apis': 'http://www.go1977.com/inc/gom3u8.php',
+			'flag': 'qianke',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '605云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.605zy.cc/inc/605m3u8.php',
+			'flag': 'liuzy',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '156云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.156zy.com/inc/33uuck.php',
+			'flag': 'sanu',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '129云资源',
+			'rema': '不支持https',
+			'apis': 'http://www.129zy.com/inc/129m3u8.php',
+			'flag': 'yierjiu',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': 'OK云资源',
+			'rema': 'https资源,有暗链',
+			'apis': 'http://api.iokzy.com/inc/apickm3u8s.php',
+			'flag': 'okzy',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '精品云资源',
+			'rema': 'https资源',
+			'apis': 'http://www.jingpinzy.com/inc/s_api_jpm3u8.php',
+			'flag': 'jingpin',
+			'coll': 'm3u8',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}]
+	},
+	'vfed': {
+		'head': '视频网站专区',
+		'tips': '',
+		'rows': [{
 			'name': '6U云资源',
 			'rema': '含VIP视频',
 			'apis': 'http://zy.ataoju.com/inc/api.php',
@@ -30,6 +221,15 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '1717云资源',
+			'rema': '含VIP视频,api经常链接失败',
+			'apis': 'http://zy.itono.cn/inc/api.php',
+			'flag': 'yiqi',
+			'coll': 'all',
+			'tips': 'ok',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': 'CKFLV云资源',
 			'rema': '不推荐,各种无图,tu.php无效',
 			'apis': 'http://zy.vivcms.com/inc/api.php',
@@ -41,31 +241,12 @@ var vfed = {
 		}, {
 			'name': 'TV6云资源',
 			'rema': '不推荐,各种无图,tu.php无效',
-			'apis': 'http://cj.tv6.com/mox/inc/api.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/api.php',
 			'flag': 'tvliu',
 			'coll': 'all',
 			'tips': 'ok',
 			'sell': '',
 			'down': ''
-		}]
-	},
-	'advs': {
-		'head': '广告投放 >>> 官方QQ群：<a href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
-		'tips': '',
-		'rows': [{
-			'name': '超清无广告解析',
-			'rema': '支持https',
-			'apis': 'https://jx.itaoju.top/?url=',
-			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
-			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
-			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
-			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
-			'tips': 'ok',
-			'sell': '1'
 		}]
 	},
 	'offi': {
@@ -137,7 +318,7 @@ var vfed = {
 		}, {
 			'name': 'PPTV资源',
 			'rema': 'TV6云资源',
-			'apis': 'http://cj.tv6.com/mox/inc/pptv.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/pptv.php',
 			'flag': 'tvliu',
 			'coll': 'pptv',
 			'tips': 'ok',
@@ -146,7 +327,7 @@ var vfed = {
 		}, {
 			'name': '优酷资源',
 			'rema': 'TV6云资源',
-			'apis': 'http://cj.tv6.com/mox/inc/youku.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/youku.php',
 			'flag': 'tvliu',
 			'coll': 'youku',
 			'tips': 'ok',
@@ -155,7 +336,7 @@ var vfed = {
 		}, {
 			'name': '芒果资源',
 			'rema': 'TV6云资源',
-			'apis': 'http://cj.tv6.com/mox/inc/mgtv.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/mgtv.php',
 			'flag': 'tvliu',
 			'coll': 'mgtv',
 			'tips': 'ok',
@@ -164,7 +345,7 @@ var vfed = {
 		}, {
 			'name': '奇艺资源',
 			'rema': 'TV6云资源',
-			'apis': 'http://cj.tv6.com/mox/inc/qiyi.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/qiyi.php',
 			'flag': 'tvliu',
 			'coll': 'qiyi',
 			'tips': 'ok',
@@ -173,7 +354,7 @@ var vfed = {
 		}, {
 			'name': '腾讯资源',
 			'rema': 'TV6云资源',
-			'apis': 'http://cj.tv6.com/mox/inc/qq.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/qq.php',
 			'flag': 'tvliu',
 			'coll': 'qq',
 			'tips': 'ok',
@@ -182,7 +363,7 @@ var vfed = {
 		}, {
 			'name': '搜狐资源',
 			'rema': 'TV6云资源',
-			'apis': 'http://cj.tv6.com/mox/inc/sohu.php',
+			'apis': 'http://cj2.tv6.com/mox/inc/sohu.php',
 			'flag': 'tvliu',
 			'coll': 'sohu',
 			'tips': 'ok',
@@ -343,164 +524,6 @@ var vfed = {
 			'apis': 'http://www.jingpinzy.com/inc/s_api.php',
 			'flag': 'jingpin',
 			'coll': 'all',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}]
-	},
-	'm3u8': {
-		'head': '切片资源专区',
-		'tips': '',
-		'rows': [{
-			'name': '最大云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidam3u8.php',
-			'flag': 'zuida',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '最新云资源',
-			'rema': 'https资源',
-			'apis': 'http://api.zuixinapi.com/inc/apixinm3u8.php',
-			'flag': 'zuixin',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '最快云资源',
-			'rema': '不支持https',
-			'apis': 'http://cj.zuikzy.com/inc/zkm3u8.php',
-			'flag': 'zuikuai',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '极速云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.caijizy.com/inc/jsm3u8.php',
-			'flag': 'jisu',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '酷酷云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.kuyun9.com/inc/s_ldg_kkm3u8.asp',
-			'flag': 'kuku',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '酷播云资源',
-			'rema': 'https资源',
-			'apis': 'http://api.kbzyapi.com/inc/s_api_kakam3u8.php',
-			'flag': 'kubo',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '百万云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.baiwanzy.com/inc/bwm3u8.php',
-			'flag': 'baiwan',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '永久云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.yongjiuzy.com/inc/s_yjm3u8.php',
-			'flag': 'yongjiu',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '帝国云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.yszydg.com/inc/apickm3u8.php',
-			'flag': 'diguo',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '暧昧云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.imeizy.com/inc/apim3u8.php',
-			'flag': 'aimei',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '资源片资源',
-			'rema': 'https资源',
-			'apis': 'http://www.ziyuanpian.com/inc/ckm3u8.php',
-			'flag': 'ziyuan',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '几千客资源',
-			'rema': 'https资源',
-			'apis': 'http://www.go1977.com/inc/gom3u8.php',
-			'flag': 'qianke',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '605云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.605zy.cc/inc/605m3u8.php',
-			'flag': 'liuzy',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '156云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.156zy.com/inc/33uuck.php',
-			'flag': 'sanu',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '129云资源',
-			'rema': '不支持https',
-			'apis': 'http://www.129zy.com/inc/129m3u8.php',
-			'flag': 'yierjiu',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': 'OK云资源',
-			'rema': 'https资源,有暗链',
-			'apis': 'http://api.iokzy.com/inc/apickm3u8s.php',
-			'flag': 'okzy',
-			'coll': 'm3u8',
-			'tips': 'ok',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '精品云资源',
-			'rema': 'https资源',
-			'apis': 'http://www.jingpinzy.com/inc/s_api_jpm3u8.php',
-			'flag': 'jingpin',
-			'coll': 'm3u8',
 			'tips': 'ok',
 			'sell': '',
 			'down': ''
@@ -671,29 +694,6 @@ var vfed = {
 			'tips': 'ok',
 			'sell': '',
 			'down': ''
-		}]
-	},
-	'down': {
-		'head': '下载资源专区',
-		'tips': '',
-		'rows': [{
-			'name': '最大云资源',
-			'rema': '迅雷下载',
-			'apis': 'http://www.zdziyuan.com/inc/s_apidown.php',
-			'flag': 'zuida',
-			'coll': 'down',
-			'tips': 'ok',
-			'sell': '',
-			'down': '&param=JmN0PTE'
-		}, {
-			'name': '精品云资源',
-			'rema': '迅雷下载',
-			'apis': 'http://www.jingpinzy.com/inc/apidown.php',
-			'flag': 'jingpin',
-			'coll': 'down',
-			'tips': 'ok',
-			'sell': '',
-			'down': '&param=JmN0PTE'
 		}]
 	},
 	'fuck': {
