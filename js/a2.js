@@ -1,0 +1,1 @@
+document.writeln("<iframe data-aa=\'990880\' src=\'//acceptable.a-ads.com/990880\' scrolling=\'no\' style=\'border:0px; padding:0;overflow:hidden\' allowtransparency=\'true\'></iframe>");
