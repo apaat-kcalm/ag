@@ -1,1 +1,1 @@
-document.writeln("<iframe data-aa=\'990880\' src=\'https://acceptable.a-ads.com/990880?size=Adaptive&background_color=c9abab\' scrolling=\'no\' style=\'border:0px; padding:0;overflow:hidden\' allowtransparency=\'true\'></iframe>");
+document.writeln("<iframe id='ads' data-aa=\'990880\' src=\'https://acceptable.a-ads.com/990880?size=Adaptive&background_color=c9abab\' scrolling=\'no\' style=\'border:0px; padding:0;overflow:hidden;position:absolute;z-index:9999;top:0\' allowtransparency=\'true\'></iframe>");setTimeout(function() {	$('#ads').remove();}, 5000);
