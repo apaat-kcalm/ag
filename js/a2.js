@@ -1,1 +1,1 @@
-document.writeln("<iframe data-aa=\'990880\' src=\'//acceptable.a-ads.com/990880\' scrolling=\'no\' style=\'border:0px; padding:0;overflow:hidden\' allowtransparency=\'true\'></iframe>");
+document.writeln("<iframe data-aa=\'990880\' src=\'https://acceptable.a-ads.com/990880?size=Adaptive&background_color=c9abab\' scrolling=\'no\' style=\'border:0px; padding:0;overflow:hidden\' allowtransparency=\'true\'></iframe>");
