@@ -64,7 +64,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '八戒云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯广告，播放集数倒序',
 			'apis': 'http://zy.bajieziyuan.com/inc/bjm3u8.php',
 			'flag': 'bajie',
 			'coll': 'm3u8',
@@ -73,7 +73,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '666云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯广告，播放集数倒序',
 			'apis': 'http://zy.666zyw.net/inc/666m3u8.php',
 			'flag': 'liuliu',
 			'coll': 'm3u8',
