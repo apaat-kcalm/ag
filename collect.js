@@ -678,7 +678,7 @@ var vfed = {
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidall.php',
 			'flag': 'zuida',
 			'coll': 'line',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'tips': '<span class="layui-badge layui-bg-green">龟速播放</span>',
 			'sell': '',
 			'down': ''
 		}, {
