@@ -95,7 +95,7 @@ var vfed = {
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidam3u8.php',
 			'flag': 'zuida',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-green">龟速播放</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -484,7 +484,7 @@ var vfed = {
 			'apis': 'http://www.zdziyuan.com/inc/s_api.php',
 			'flag': 'zuida',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
 			'sell': '',
 			'down': ''
 		}, {
