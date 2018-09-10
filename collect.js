@@ -68,7 +68,7 @@ var vfed = {
 			'apis': 'http://zy.bajieziyuan.com/inc/bjm3u8.php',
 			'flag': 'bajie',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'tips': '<span class="layui-badge layui-bg-red">国内CDN加速</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -77,7 +77,7 @@ var vfed = {
 			'apis': 'http://zy.666zyw.net/inc/666m3u8.php',
 			'flag': 'liuliu',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
+			'tips': '<span class="layui-badge layui-bg-red">国内CDN加速</span>',
 			'sell': '',
 			'down': ''
 		}, {
