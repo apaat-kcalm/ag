@@ -91,11 +91,11 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最大云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯广告，管理员不接受速度慢的意见，谁说踢谁！',
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidam3u8.php',
 			'flag': 'zuida',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'tips': '<span class="layui-badge layui-bg-green">龟速播放</span>',
 			'sell': '',
 			'down': ''
 		}, {
