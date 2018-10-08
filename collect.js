@@ -68,7 +68,7 @@ var vfed = {
 			'apis': 'http://zy.bajieziyuan.com/inc/bjm3u8.php',
 			'flag': 'bajie',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-red">国内加速</span>',
+			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -77,7 +77,7 @@ var vfed = {
 			'apis': 'http://zy.666zyw.net/inc/666m3u8.php',
 			'flag': 'liuliu',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-red">国内加速</span>',
+			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -91,11 +91,11 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最大云资源',
-			'rema': '顶部跑马灯广告，管理员不接受速度慢的意见，谁说慢踢谁！',
+			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidam3u8.php',
 			'flag': 'zuida',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -157,6 +157,15 @@ var vfed = {
 			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.jingpinzy.com/inc/s_api_jpm3u8.php',
 			'flag': 'jingpin',
+			'coll': 'm3u8',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '1977云资源',
+			'rema': '右下角常驻广告',
+			'apis': 'http://www.1977zy.com/inc/97m3u8.php',
+			'flag': 'yijiuqiqi',
 			'coll': 'm3u8',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
@@ -457,7 +466,7 @@ var vfed = {
 			'apis': 'http://zy.bajieziyuan.com/inc/api.php',
 			'flag': 'bajie',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-red">国内加速</span>',
+			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -466,7 +475,7 @@ var vfed = {
 			'apis': 'http://zy.666zyw.net/inc/api.php',
 			'flag': 'liuliu',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-red">国内加速</span>',
+			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -484,7 +493,7 @@ var vfed = {
 			'apis': 'http://www.zdziyuan.com/inc/s_api.php',
 			'flag': 'zuida',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -546,6 +555,15 @@ var vfed = {
 			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.jingpinzy.com/inc/s_api.php',
 			'flag': 'jingpin',
+			'coll': 'all',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '1977云资源',
+			'rema': '右下角常驻广告',
+			'apis': 'http://www.1977zy.com/inc/api.php',
+			'flag': 'yijiuqiqi',
 			'coll': 'all',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
@@ -678,7 +696,7 @@ var vfed = {
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidall.php',
 			'flag': 'zuida',
 			'coll': 'line',
-			'tips': '<span class="layui-badge layui-bg-green">龟速播放</span>',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -740,6 +758,15 @@ var vfed = {
 			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.jingpinzy.com/inc/s_api_jpyun.php',
 			'flag': 'jingpin',
+			'coll': 'line',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '1977云资源',
+			'rema': '右下角常驻广告',
+			'apis': 'http://www.1977zy.com/inc/1977zy.php',
+			'flag': 'yijiuqiqi',
 			'coll': 'line',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
@@ -840,6 +867,15 @@ var vfed = {
 		'head': '叉站资源专区',
 		'tips': '',
 		'rows': [{
+			'name': '1769云资源',
+			'rema': '不支持https',
+			'apis': 'http://cj.vod1769.com/zyapimacc.php',
+			'flag': 'yiqiliujiu',
+			'coll': 'line',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '九州云资源',
 			'rema': '云播,https资源',
 			'apis': 'http://zyapi.jssida.top/api.php',
@@ -930,7 +966,7 @@ $.each(vfed, function(list, name) {
 		var url4 = urls.replace('{ac}', 'cjall').replace('{rday}', '').replace('{flag}', info.flag).replace('{apis}', info.apis);
 		html += '<tr>';
 		html += '<td width="20" align="center">' + nums + '</td>';
-		html += '<td width="60" align="center">' + info.tips + '</td>';
+		html += '<td width="70" align="center">' + info.tips + '</td>';
 		if(list == 'advs') {
 			html += '<td><a target="_blank" href="' + info.apis + '">' + info.name + '【' + info.rema + '】' + sell + '</a></td>';
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url1 + '">' + info.tip1 + '</a></td></td>';
@@ -939,7 +975,7 @@ $.each(vfed, function(list, name) {
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url4 + '">' + info.tip4 + '</a></td>';
 		} else {
 			html += '<td><a href="' + url1 + info.down + '">' + info.name + '【' + info.rema + '】' + sell + '</a></td>';
-			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + encodeURIComponent(info.name + '【' + info.rema + '-' + name.head + '】') + '" data-flag="' + encodeURIComponent(info.flag + info.coll) + '" data-param="' + url2.replace('api?', '') + info.down + '">定时任务</a></td>';
+			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + encodeURIComponent(info.name + '【' + name.head + '】') + '" data-flag="' + encodeURIComponent(info.flag + info.coll) + '" data-param="' + url2.replace('api?', '') + info.down + '">定时任务</a></td>';
 			html += '<td width="60" align="center"><a href="' + url2 + info.down + '">采集当天</a></td>';
 			html += '<td width="60" align="center"><a href="' + url3 + info.down + '">采集本周</a></td>';
 			html += '<td width="60" align="center"><a href="' + url4 + info.down + '">采集所有</a></td>';
