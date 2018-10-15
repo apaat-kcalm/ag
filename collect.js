@@ -7,15 +7,29 @@ var vfed = {
 			'rema': '支持https',
 			'apis': 'https://jx.itaoju.top/?url=',
 			'tip1': '优酷演示',
-			'url1': 'https://jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjkzNzY0NzkyOA==.html',
+			'url1': '//jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjg5NzgyNjA5Mg==.html',
 			'tip2': '腾讯演示',
-			'url2': 'https://jx.itaoju.top/?url=https://v.qq.com/x/cover/5r3n1td1xijy87h.html',
+			'url2': '//jx.itaoju.top/?url=https://v.qq.com/x/cover/h188mdjtrh3up22.html',
 			'tip3': '奇艺演示',
-			'url3': 'https://jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrdmuvuc.html',
+			'url3': '//jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrnzk2lc.html',
 			'tip4': '搜狐演示',
-			'url4': 'https://jx.itaoju.top/?url=https://www.le.com/ptv/vplay/31078847.html',
+			'url4': '//jx.itaoju.top/?url=https://tv.sohu.com/v/MjAxNTEwMTUvbjQyMzM1NjM5NC5zaHRtbA==.html',
 			'tips': '<span class="layui-badge layui-bg-green">免费解析</span>',
 			'sell': '1'
+		}]
+	},
+	'live': {
+		'head': '直播资源专区',
+		'tips': 'vfed主题授权用户采集直播源请联系群主',
+		'rows': [{
+			'name': '热播剧资源',
+			'rema': '授权用户采集联系群主',
+			'apis': 'http://reboju.me/api.php/provide/vod/?ac=list',
+			'flag': 'reboju',
+			'coll': 'live',
+			'tips': '<span class="layui-badge layui-bg-red">电视直播</span>',
+			'sell': '',
+			'down': ''
 		}]
 	},
 	'down': {
@@ -82,11 +96,29 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最快云资源',
-			'rema': '不支持https,右下广告',
+			'rema': '右下角短时出现广告',
 			'apis': 'http://cj.zuikzy.com/inc/zkm3u8.php',
 			'flag': 'zuikuai',
 			'coll': 'm3u8',
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '卧龙云资源',
+			'rema': '跑马灯,右下角广告',
+			'apis': 'http://copyplus.cn/inc/s_api_mac_m3u8.php',
+			'flag': 'wolong',
+			'coll': 'm3u8',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '青云云资源',
+			'rema': '顶部跑马灯广告',
+			'apis': 'http://www.xiaosao.bi/inc/ckplayers.php',
+			'flag': 'qingyun',
+			'coll': 'm3u8',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -100,7 +132,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷酷云资源',
-			'rema': '屏幕中间跑马灯广告',
+			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_kkm3u8.asp',
 			'flag': 'kuku',
 			'coll': 'm3u8',
@@ -327,9 +359,72 @@ var vfed = {
 		}]
 	},
 	'offi': {
-		'head': '视频网站专区',
+		'head': '视频独立采集',
 		'tips': '',
 		'rows': [{
+			'name': '优酷资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apiyouku.php',
+			'flag': 'liuu',
+			'coll': 'youku',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '腾讯资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apiqq.php',
+			'flag': 'liuu',
+			'coll': 'qq',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '芒果资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apimgtv.php',
+			'flag': 'liuu',
+			'coll': 'mgtv',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '乐视资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apiletv.php',
+			'flag': 'liuu',
+			'coll': 'letv',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '搜狐资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apisohu.php',
+			'flag': 'liuu',
+			'coll': 'sohu',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': 'PPTV资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apipptv.php',
+			'flag': 'liuu',
+			'coll': 'pptv',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '爱奇艺资源',
+			'rema': '6U云资源',
+			'apis': 'http://zy.ataoju.com/inc/apiqiyi.php',
+			'flag': 'liuu',
+			'coll': 'qiyi',
+			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': 'PPTV资源',
 			'rema': 'CKFLV云资源',
 			'apis': 'http://zy.vivcms.com/inc/pptv.php',
@@ -480,11 +575,20 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最快云资源',
-			'rema': '不支持https,右下广告',
+			'rema': '右下角短时出现广告',
 			'apis': 'http://cj.zuikzy.com/inc/api.php',
 			'flag': 'zuikuai',
 			'coll': 'all',
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '卧龙云资源',
+			'rema': '跑马灯,右下角广告',
+			'apis': 'http://copyplus.cn/inc/s_api_mac.php',
+			'flag': 'wolong',
+			'coll': 'all',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -498,7 +602,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷酷云资源',
-			'rema': '屏幕中间跑马灯广告',
+			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_m3u8.asp',
 			'flag': 'kuku',
 			'coll': 'all',
@@ -683,11 +787,20 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最快云资源',
-			'rema': '不支持https,右下广告',
+			'rema': '右下角短时出现广告',
 			'apis': 'http://cj.zuikzy.com/inc/zkyun.php ',
 			'flag': 'zuikuai',
 			'coll': 'line',
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'sell': '',
+			'down': ''
+		}, {
+			'name': '卧龙云资源',
+			'rema': '跑马灯,右下角广告',
+			'apis': 'http://copyplus.cn/inc/s_api_mac_kuyun.php',
+			'flag': 'wolong',
+			'coll': 'line',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -701,7 +814,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷酷云资源',
-			'rema': '屏幕中间跑马灯广告',
+			'rema': '顶部跑马灯广告',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_kkyun.asp',
 			'flag': 'kuku',
 			'coll': 'line',
@@ -975,7 +1088,7 @@ $.each(vfed, function(list, name) {
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url4 + '">' + info.tip4 + '</a></td>';
 		} else {
 			html += '<td><a href="' + url1 + info.down + '">' + info.name + '【' + info.rema + '】' + sell + '</a></td>';
-			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + encodeURIComponent(info.name + '【' + name.head + '】') + '" data-flag="' + encodeURIComponent(info.flag + info.coll) + '" data-param="' + url2.replace('api?', '') + info.down + '">定时任务</a></td>';
+			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + encodeURIComponent(info.name + '【' + name.head + '】') + '" data-flag="' + encodeURIComponent(info.flag + info.coll) + '" data-param="' + url2.replace('api?', '') + info.down + '">定时采集</a></td>';
 			html += '<td width="60" align="center"><a href="' + url2 + info.down + '">采集当天</a></td>';
 			html += '<td width="60" align="center"><a href="' + url3 + info.down + '">采集本周</a></td>';
 			html += '<td width="60" align="center"><a href="' + url4 + info.down + '">采集所有</a></td>';
@@ -990,7 +1103,9 @@ $('.timming').click(function() {
 		$.post('../../../template/vfed/asset/fed/create.php?id=tim', 'name=' + $(this).attr('data-name') + '&flag=' + $(this).attr('data-flag') + '&param=' + encodeURIComponent($(this).attr('data-param')), function(data) {
 			alert(data.msg);
 		}).error(function(data) {
-			alert('请求失败：' + data.status);
+			if(data.status == 404) {
+				if(confirm('独立版暂不支持一键添加定时任务,如有需要请点击确定了解详情')) location.href = 'http://t.cn/RBfAHG5';
+			} else alert('请求失败：' + data.status);
 		}, 'json');
 	}
 });
