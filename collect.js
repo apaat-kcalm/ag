@@ -3,6 +3,20 @@ var vfed = {
 		'head': '广告投放 >>> 官方QQ群：<a href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
 		'tips': '',
 		'rows': [{
+			'name': 'vfed主题自带联盟资源库',
+			'rema': 'http://vfed.cc',
+			'apis': 'http://vfed.cc',
+			'tip1': '主题官网',
+			'url1': 'http://vfed.cc',
+			'tip2': '主题演示',
+			'url2': 'https://vfed.eu.org',
+			'tip3': '主题教程',
+			'url3': 'http://t.cn/ReZ3Mjy',
+			'tip4': '售后服务',
+			'url4': 'https://jq.qq.com/?_wv=1027&k=5yxZxwq',
+			'tips': '<span class="layui-badge layui-bg-red">强烈推荐</span>',
+			'sell': '0'
+		}, {
 			'name': '超清无广告解析',
 			'rema': '支持https',
 			'apis': 'https://jx.itaoju.top/?url=',
