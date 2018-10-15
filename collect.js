@@ -15,7 +15,7 @@ var vfed = {
 			'tip4': '售后服务',
 			'url4': 'https://jq.qq.com/?_wv=1027&k=5yxZxwq',
 			'tips': '<span class="layui-badge layui-bg-red">强烈推荐</span>',
-			'sell': '0'
+			'sell': ''
 		}, {
 			'name': '超清无广告解析',
 			'rema': '支持https',
@@ -29,21 +29,7 @@ var vfed = {
 			'tip4': '搜狐演示',
 			'url4': '//jx.itaoju.top/?url=https://tv.sohu.com/v/MjAxNTEwMTUvbjQyMzM1NjM5NC5zaHRtbA==.html',
 			'tips': '<span class="layui-badge layui-bg-green">免费解析</span>',
-			'sell': '1'
-		}]
-	},
-	'live': {
-		'head': '直播资源专区',
-		'tips': 'vfed主题授权用户采集直播源请联系群主',
-		'rows': [{
-			'name': '热播剧资源',
-			'rema': '授权用户采集联系群主',
-			'apis': 'http://reboju.me/api.php/provide/vod/?ac=list',
-			'flag': 'reboju',
-			'coll': 'live',
-			'tips': '<span class="layui-badge layui-bg-red">电视直播</span>',
-			'sell': '',
-			'down': ''
+			'sell': '<span class="layui-badge">推荐</span>'
 		}]
 	},
 	'down': {
@@ -76,6 +62,20 @@ var vfed = {
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': '&param=JmN0PTE'
+		}]
+	},
+	'live': {
+		'head': '直播资源专区',
+		'tips': 'vfed主题授权用户采集直播源请联系群主',
+		'rows': [{
+			'name': '热播剧资源',
+			'rema': '授权用户联系群主',
+			'apis': 'http://reboju.me/api.php/provide/vod/?ac=list',
+			'flag': 'reboju',
+			'coll': 'live',
+			'tips': '<span class="layui-badge layui-bg-red">电视直播</span>',
+			'sell': '',
+			'down': ''
 		}]
 	},
 	'm3u8': {
@@ -1080,13 +1080,9 @@ var vfed = {
 var html = '';
 var urls = 'api?ac={ac}&rday={rday}&cjflag={flag}&cjurl={apis}';
 $.each(vfed, function(list, name) {
-	html += '<table class="layui-table"><thead>';
-	html += '<tr><td colspan="7"><span style="float:left">' + name.head + '</span><span style="float:right">' + name.tips + '</span></td></tr>';
-	html += '</thead><tbody>';
+	html += '<table class="layui-table"><thead><tr><td colspan="7"><span style="float:left">' + name.head + '</span><span style="float:right">' + name.tips + '</span></td></tr></thead><tbody>';
 	$.each(name.rows, function(nums, info) {
 		var nums = (nums + 1) < 10 ? '0' + (nums + 1) : (nums + 1);
-		var sell = info.sell == '1' ? '<span class="layui-badge">推荐</span>' : '';
-		var tips = info.tips == 'ok' ? '<span class="layui-badge layui-bg-green">未知节点</span>' : '<span class="layui-badge">' + info.tips + '</span>';
 		var url1 = urls.replace('{ac}', 'list').replace('{rday}', '').replace('{flag}', info.flag).replace('{apis}', info.apis);
 		var url2 = urls.replace('{ac}', 'cjday').replace('{rday}', '24').replace('{flag}', info.flag).replace('{apis}', info.apis);
 		var url3 = urls.replace('{ac}', 'cjday').replace('{rday}', '98').replace('{flag}', info.flag).replace('{apis}', info.apis);
@@ -1095,13 +1091,13 @@ $.each(vfed, function(list, name) {
 		html += '<td width="20" align="center">' + nums + '</td>';
 		html += '<td width="70" align="center">' + info.tips + '</td>';
 		if(list == 'advs') {
-			html += '<td><a target="_blank" href="' + info.apis + '">' + info.name + '【' + info.rema + '】' + sell + '</a></td>';
+			html += '<td><a target="_blank" href="' + info.apis + '">' + info.name + '【' + info.rema + '】' + info.sell + '</a></td>';
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url1 + '">' + info.tip1 + '</a></td></td>';
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url2 + '">' + info.tip2 + '</a></td>';
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url3 + '">' + info.tip3 + '</a></td>';
 			html += '<td width="60" align="center"><a target="_blank" href="' + info.url4 + '">' + info.tip4 + '</a></td>';
 		} else {
-			html += '<td><a href="' + url1 + info.down + '">' + info.name + '【' + info.rema + '】' + sell + '</a></td>';
+			html += '<td><a href="' + url1 + info.down + '">' + info.name + '【' + info.rema + '】' + info.sell + '</a></td>';
 			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + encodeURIComponent(info.name + '【' + name.head + '】') + '" data-flag="' + encodeURIComponent(info.flag + info.coll) + '" data-param="' + url2.replace('api?', '') + info.down + '">定时采集</a></td>';
 			html += '<td width="60" align="center"><a href="' + url2 + info.down + '">采集当天</a></td>';
 			html += '<td width="60" align="center"><a href="' + url3 + info.down + '">采集本周</a></td>';
