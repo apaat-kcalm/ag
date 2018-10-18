@@ -17,7 +17,7 @@ var vfed = {
 			'tips': '<span class="layui-badge layui-bg-red">强烈推荐</span>',
 			'sell': ''
 		}, {
-			'name': '超清无广告解析',
+			'name': '超清无水印解析',
 			'rema': '支持https',
 			'apis': 'https://jx.itaoju.top/?url=',
 			'tip1': '优酷演示',
@@ -83,7 +83,7 @@ var vfed = {
 		'tips': 'vfed主题推荐资源，支持自动播放下一集',
 		'rows': [{
 			'name': '豆瓣云资源',
-			'rema': '跑马灯,右下角广告',
+			'rema': '跑马灯,右下角水印',
 			'apis': 'http://www.dbzyz.com/inc/dbm3u8.php',
 			'flag': 'dbzyz',
 			'coll': 'm3u8',
@@ -92,7 +92,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '八戒云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://zy.bajieziyuan.com/inc/bjm3u8.php',
 			'flag': 'bajie',
 			'coll': 'm3u8',
@@ -101,7 +101,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '666云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://zy.666zyw.net/inc/666m3u8.php',
 			'flag': 'liuliu',
 			'coll': 'm3u8',
@@ -110,7 +110,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最快云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://cj.zuikzy.com/inc/zkm3u8.php',
 			'flag': 'zuikuai',
 			'coll': 'm3u8',
@@ -119,7 +119,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '卧龙云资源',
-			'rema': '跑马灯,右下角广告',
+			'rema': '跑马灯,右下角水印',
 			'apis': 'http://copyplus.cn/inc/s_api_mac_m3u8.php',
 			'flag': 'wolong',
 			'coll': 'm3u8',
@@ -128,7 +128,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '青云云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.xiaosao.bi/inc/ckplayers.php',
 			'flag': 'qingyun',
 			'coll': 'm3u8',
@@ -137,7 +137,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最大云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidam3u8.php',
 			'flag': 'zuida',
 			'coll': 'm3u8',
@@ -146,7 +146,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷酷云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_kkm3u8.asp',
 			'flag': 'kuku',
 			'coll': 'm3u8',
@@ -155,7 +155,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '百万云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://www.baiwanzy.com/inc/bwm3u8.php',
 			'flag': 'baiwan',
 			'coll': 'm3u8',
@@ -164,7 +164,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '永久云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://yongjiuzy.net/inc/s_yjm3u8.php',
 			'flag': 'yongjiu',
 			'coll': 'm3u8',
@@ -173,7 +173,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '帝国云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.yszydg.com/inc/apickm3u8.php',
 			'flag': 'diguo',
 			'coll': 'm3u8',
@@ -182,8 +182,8 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '暧昧云资源',
-			'rema': '顶部跑马灯广告',
-			'apis': 'https://www.imeizy.com/inc/apim3u8.php',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://cj.vipzy.cc/inc/apim3u8.php',
 			'flag': 'aimei',
 			'coll': 'm3u8',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
@@ -191,7 +191,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '资源片资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.ziyuanpian.com/inc/ckm3u8.php',
 			'flag': 'ziyuan',
 			'coll': 'm3u8',
@@ -200,7 +200,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '精品云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.jingpinzy.com/inc/s_api_jpm3u8.php',
 			'flag': 'jingpin',
 			'coll': 'm3u8',
@@ -209,7 +209,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '1977云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.1977zy.com/inc/97m3u8.php',
 			'flag': 'yijiuqiqi',
 			'coll': 'm3u8',
@@ -218,7 +218,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '605云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.605zy.cc/inc/605m3u8.php',
 			'flag': 'liuzy',
 			'coll': 'm3u8',
@@ -227,7 +227,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '156云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.156zy.com/inc/33uuck.php',
 			'flag': 'sanu',
 			'coll': 'm3u8',
@@ -236,7 +236,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '97云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.97zyw.com/inc/97zyck.php',
 			'flag': 'jiuqi',
 			'coll': 'm3u8',
@@ -245,7 +245,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': 'OK云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.iokzy.com/inc/apickm3u8s.php',
 			'flag': 'okzy',
 			'coll': 'm3u8',
@@ -258,21 +258,21 @@ var vfed = {
 			'apis': 'http://www.129zy.com/inc/129m3u8.php',
 			'flag': 'yierjiu',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '最新云资源',
-			'rema': '屏幕中间常驻广告',
+			'rema': '屏幕中间常驻水印',
 			'apis': 'http://api.zuixinapi.com/inc/apixinm3u8.php',
 			'flag': 'zuixin',
 			'coll': 'm3u8',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '几千客资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.go1977.com/inc/gom3u8.php',
 			'flag': 'qianke',
 			'coll': 'm3u8',
@@ -281,7 +281,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '极速云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://www.caijizy.com/inc/jsm3u8.php',
 			'flag': 'jisu',
 			'coll': 'm3u8',
@@ -290,7 +290,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷播云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.kbzyapi.com/inc/s_api_kakam3u8.php',
 			'flag': 'kubo',
 			'coll': 'm3u8',
@@ -319,7 +319,7 @@ var vfed = {
 		'rows': [{
 			'name': '6U云资源',
 			'rema': '含VIP视频',
-			'apis': 'http://zy.ataoju.com/inc/api.php',
+			'apis': 'http://zy.ai5z.com/inc/api.php',
 			'flag': 'liuu',
 			'coll': 'all',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -378,7 +378,7 @@ var vfed = {
 		'rows': [{
 			'name': '优酷资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apiyouku.php',
+			'apis': 'http://zy.ai5z.com/inc/apiyouku.php',
 			'flag': 'liuu',
 			'coll': 'youku',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -387,7 +387,7 @@ var vfed = {
 		}, {
 			'name': '腾讯资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apiqq.php',
+			'apis': 'http://zy.ai5z.com/inc/apiqq.php',
 			'flag': 'liuu',
 			'coll': 'qq',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -396,7 +396,7 @@ var vfed = {
 		}, {
 			'name': '芒果资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apimgtv.php',
+			'apis': 'http://zy.ai5z.com/inc/apimgtv.php',
 			'flag': 'liuu',
 			'coll': 'mgtv',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -405,7 +405,7 @@ var vfed = {
 		}, {
 			'name': '乐视资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apiletv.php',
+			'apis': 'http://zy.ai5z.com/inc/apiletv.php',
 			'flag': 'liuu',
 			'coll': 'letv',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -414,7 +414,7 @@ var vfed = {
 		}, {
 			'name': '搜狐资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apisohu.php',
+			'apis': 'http://zy.ai5z.com/inc/apisohu.php',
 			'flag': 'liuu',
 			'coll': 'sohu',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -423,7 +423,7 @@ var vfed = {
 		}, {
 			'name': 'PPTV资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apipptv.php',
+			'apis': 'http://zy.ai5z.com/inc/apipptv.php',
 			'flag': 'liuu',
 			'coll': 'pptv',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -432,7 +432,7 @@ var vfed = {
 		}, {
 			'name': '爱奇艺资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ataoju.com/inc/apiqiyi.php',
+			'apis': 'http://zy.ai5z.com/inc/apiqiyi.php',
 			'flag': 'liuu',
 			'coll': 'qiyi',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
@@ -562,7 +562,7 @@ var vfed = {
 		'tips': '',
 		'rows': [{
 			'name': '豆瓣云资源',
-			'rema': '跑马灯,右下角广告',
+			'rema': '跑马灯,右下角水印',
 			'apis': 'http://www.dbzyz.com/inc/api.php',
 			'flag': 'dbzyz',
 			'coll': 'all',
@@ -571,7 +571,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '八戒云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://zy.bajieziyuan.com/inc/api.php',
 			'flag': 'bajie',
 			'coll': 'all',
@@ -580,7 +580,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '666云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://zy.666zyw.net/inc/api.php',
 			'flag': 'liuliu',
 			'coll': 'all',
@@ -589,7 +589,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最快云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://cj.zuikzy.com/inc/api.php',
 			'flag': 'zuikuai',
 			'coll': 'all',
@@ -598,7 +598,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '卧龙云资源',
-			'rema': '跑马灯,右下角广告',
+			'rema': '跑马灯,右下角水印',
 			'apis': 'http://copyplus.cn/inc/s_api_mac.php',
 			'flag': 'wolong',
 			'coll': 'all',
@@ -607,7 +607,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最大云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.zdziyuan.com/inc/s_api.php',
 			'flag': 'zuida',
 			'coll': 'all',
@@ -616,7 +616,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷酷云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_m3u8.asp',
 			'flag': 'kuku',
 			'coll': 'all',
@@ -625,7 +625,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '百万云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://www.baiwanzy.com/inc/api.php',
 			'flag': 'baiwan',
 			'coll': 'all',
@@ -634,7 +634,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '永久云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://yongjiuzy.net/inc/s_api.php',
 			'flag': 'yongjiu',
 			'coll': 'all',
@@ -643,7 +643,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '帝国云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.yszydg.com/inc/api.php',
 			'flag': 'diguo',
 			'coll': 'all',
@@ -652,8 +652,8 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '暧昧云资源',
-			'rema': '顶部跑马灯广告',
-			'apis': 'https://www.imeizy.com/inc/api.php',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://cj.vipzy.cc/inc/api.php',
 			'flag': 'aimei',
 			'coll': 'all',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
@@ -661,7 +661,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '资源片资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.ziyuanpian.com/inc/api.php',
 			'flag': 'ziyuan',
 			'coll': 'all',
@@ -670,7 +670,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '精品云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.jingpinzy.com/inc/s_api.php',
 			'flag': 'jingpin',
 			'coll': 'all',
@@ -679,7 +679,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '1977云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.1977zy.com/inc/api.php',
 			'flag': 'yijiuqiqi',
 			'coll': 'all',
@@ -688,7 +688,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '605云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.605zy.cc/inc/api.php',
 			'flag': 'liuzy',
 			'coll': 'all',
@@ -697,7 +697,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '156云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.156zy.com/inc/api.php',
 			'flag': 'sanu',
 			'coll': 'all',
@@ -706,7 +706,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '97云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.97zyw.com/inc/api.php',
 			'flag': 'jiuqi',
 			'coll': 'all',
@@ -715,7 +715,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': 'OK云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.iokzy.com/inc/api1s.php',
 			'flag': 'okzy',
 			'coll': 'all',
@@ -728,21 +728,21 @@ var vfed = {
 			'apis': 'http://www.129zy.com/inc/api.php',
 			'flag': 'yierjiu',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '最新云资源',
-			'rema': '屏幕中间常驻广告',
+			'rema': '屏幕中间常驻水印',
 			'apis': 'http://api.zuixinapi.com/inc/api.php',
 			'flag': 'zuixin',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '几千客资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.go1977.com/inc/api.php',
 			'flag': 'qianke',
 			'coll': 'all',
@@ -751,7 +751,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '极速云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://www.caijizy.com/inc/api.php',
 			'flag': 'jisu',
 			'coll': 'all',
@@ -760,7 +760,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷播云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.kbzyapi.com/inc/s_api.php',
 			'flag': 'kubo',
 			'coll': 'all',
@@ -774,7 +774,7 @@ var vfed = {
 		'tips': '',
 		'rows': [{
 			'name': '豆瓣云资源',
-			'rema': '跑马灯,右下角广告',
+			'rema': '跑马灯,右下角水印',
 			'apis': 'http://www.dbzyz.com/inc/dbyun.php',
 			'flag': 'dbzyz',
 			'coll': 'line',
@@ -783,7 +783,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '八戒云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://zy.bajieziyuan.com/inc/bjyun.php',
 			'flag': 'bajie',
 			'coll': 'line',
@@ -792,7 +792,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '666云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://zy.666zyw.net/inc/666yun.php',
 			'flag': 'liuliu',
 			'coll': 'line',
@@ -801,7 +801,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最快云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://cj.zuikzy.com/inc/zkyun.php ',
 			'flag': 'zuikuai',
 			'coll': 'line',
@@ -810,7 +810,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '卧龙云资源',
-			'rema': '跑马灯,右下角广告',
+			'rema': '跑马灯,右下角水印',
 			'apis': 'http://copyplus.cn/inc/s_api_mac_kuyun.php',
 			'flag': 'wolong',
 			'coll': 'line',
@@ -819,7 +819,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '最大云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.zdziyuan.com/inc/s_api_zuidall.php',
 			'flag': 'zuida',
 			'coll': 'line',
@@ -828,7 +828,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷酷云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.kuyun9.com/inc/s_ldg_kkyun.asp',
 			'flag': 'kuku',
 			'coll': 'line',
@@ -837,7 +837,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '百万云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://www.baiwanzy.com/inc/bwyun.php',
 			'flag': 'baiwan',
 			'coll': 'line',
@@ -846,7 +846,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '永久云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://yongjiuzy.net/inc/s_yjyun.php',
 			'flag': 'yongjiu',
 			'coll': 'line',
@@ -855,7 +855,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '帝国云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.yszydg.com/inc/apikuyun.php',
 			'flag': 'diguo',
 			'coll': 'line',
@@ -864,8 +864,8 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '暧昧云资源',
-			'rema': '顶部跑马灯广告',
-			'apis': 'https://www.imeizy.com/inc/apikuyun.php',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://cj.vipzy.cc/inc/apikuyun.php',
 			'flag': 'aimei',
 			'coll': 'line',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
@@ -873,7 +873,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '资源片资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.ziyuanpian.com/inc/kuyun.php',
 			'flag': 'ziyuan',
 			'coll': 'line',
@@ -882,7 +882,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '精品云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.jingpinzy.com/inc/s_api_jpyun.php',
 			'flag': 'jingpin',
 			'coll': 'line',
@@ -891,7 +891,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '1977云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.1977zy.com/inc/1977zy.php',
 			'flag': 'yijiuqiqi',
 			'coll': 'line',
@@ -900,7 +900,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '605云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.605zy.cc/inc/605yun.php',
 			'flag': 'liuzy',
 			'coll': 'line',
@@ -909,7 +909,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '156云资源',
-			'rema': '右下角常驻广告',
+			'rema': '右下角常驻水印',
 			'apis': 'http://www.156zy.com/inc/33uu.php',
 			'flag': 'sanu',
 			'coll': 'line',
@@ -918,7 +918,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '97云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.97zyw.com/inc/97zy.php',
 			'flag': 'jiuqi',
 			'coll': 'line',
@@ -927,7 +927,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': 'OK云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.iokzy.com/inc/apikuyuns.php',
 			'flag': 'okzy',
 			'coll': 'line',
@@ -940,7 +940,7 @@ var vfed = {
 			'apis': 'http://www.czhiziyuan.com/inc/api.php',
 			'flag': 'czhi',
 			'coll': 'line',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -949,21 +949,21 @@ var vfed = {
 			'apis': 'http://www.129zy.com/inc/129zy.php',
 			'flag': 'yierjiu',
 			'coll': 'line',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '最新云资源',
-			'rema': '屏幕中间常驻广告',
+			'rema': '屏幕中间常驻水印',
 			'apis': 'http://api.zuixinapi.com/inc/apixinyun.php',
 			'flag': 'zuixin',
 			'coll': 'line',
-			'tips': '<span class="layui-badge layui-bg-gray">广告太多</span>',
+			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '几千客资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://www.go1977.com/inc/link.php',
 			'flag': 'qianke',
 			'coll': 'line',
@@ -972,7 +972,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '极速云资源',
-			'rema': '右下角短时出现广告',
+			'rema': '右下角短时出现水印',
 			'apis': 'http://www.caijizy.com/inc/jsyun.php',
 			'flag': 'jisu',
 			'coll': 'line',
@@ -981,7 +981,7 @@ var vfed = {
 			'down': ''
 		}, {
 			'name': '酷播云资源',
-			'rema': '顶部跑马灯广告',
+			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.kbzyapi.com/inc/s_api_kuyun.php',
 			'flag': 'kubo',
 			'coll': 'line',
