@@ -32,55 +32,32 @@ var vfed = {
 			'sell': '<span class="layui-badge">推荐</span>'
 		}]
 	},
-	'down': {
-		'head': '下载资源专区',
+	'tops': {
+		'head': '推荐资源专区',
 		'tips': '',
 		'rows': [{
-			'name': '豆瓣云资源',
-			'rema': 'HTTP下载',
-			'apis': 'http://www.dbzyz.com/inc/apidown.php',
-			'flag': 'dbzyz',
-			'coll': 'down',
-			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'name': '1769云资源',
+			'rema': '叉站资源',
+			'apis': 'http://cj.vod1769.com/zyapimacc.php',
+			'flag': 'liujiu',
+			'coll': 'all',
+			'tips': '<span class="layui-badge layui-bg-red">国外节点</span>',
 			'sell': '',
-			'down': '&param=JmN0PTE'
+			'down': ''
 		}, {
-			'name': '最大云资源',
-			'rema': '迅雷下载',
-			'apis': 'http://www.zdziyuan.com/inc/s_apidown.php',
-			'flag': 'zuida',
-			'coll': 'down',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
-			'sell': '',
-			'down': '&param=JmN0PTE'
-		}, {
-			'name': '精品云资源',
-			'rema': '迅雷下载',
-			'apis': 'http://www.jingpinzy.com/inc/apidown.php',
-			'flag': 'jingpin',
-			'coll': 'down',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
-			'sell': '',
-			'down': '&param=JmN0PTE'
-		}]
-	},
-	'live': {
-		'head': '直播资源专区',
-		'tips': 'vfed主题授权用户采集直播源请联系群主',
-		'rows': [{
-			'name': '热播剧资源',
-			'rema': '授权用户联系群主',
-			'apis': 'http://reboju.me/api.php/provide/vod/?ac=list',
-			'flag': 'reboju',
-			'coll': 'live',
-			'tips': '<span class="layui-badge layui-bg-red">电视直播</span>',
+			'name': '小黄瓜资源',
+			'rema': '叉站资源',
+			'apis': 'http://cj.xhgcjym.com/inc/api.php',
+			'flag': 'huagua',
+			'coll': 'all',
+			'tips': '<span class="layui-badge layui-bg-red">国外节点</span>',
 			'sell': '',
 			'down': ''
 		}]
 	},
 	'm3u8': {
 		'head': '切片资源专区',
-		'tips': 'vfed主题推荐资源，支持自动播放下一集',
+		'tips': 'vfed主题推荐全站使用M3U8资源，支持自动播放下一集',
 		'rows': [{
 			'name': '豆瓣云资源',
 			'rema': '跑马灯,右下角水印',
@@ -100,10 +77,10 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '666云资源',
+			'name': '哈酷云资源',
 			'rema': '顶部跑马灯水印',
-			'apis': 'http://zy.666zyw.net/inc/666m3u8.php',
-			'flag': 'liuliu',
+			'apis': 'http://api.haku77.com/inc/hkm3u8.php',
+			'flag': 'haku',
 			'coll': 'm3u8',
 			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
 			'sell': '',
@@ -299,6 +276,61 @@ var vfed = {
 			'down': ''
 		}]
 	},
+	'live': {
+		'head': '直播资源专区',
+		'tips': 'vfed主题授权用户采集直播源请联系群主',
+		'rows': [{
+			'name': '热播剧资源',
+			'rema': '授权采集联系群主',
+			'apis': 'http://reboju.me/api.php/provide/vod/?ac=list',
+			'flag': 'reboju',
+			'coll': 'live',
+			'tips': '<span class="layui-badge layui-bg-red">电视直播</span>',
+			'sell': '',
+			'down': ''
+		}]
+	},
+	'down': {
+		'head': '下载资源专区',
+		'tips': '',
+		'rows': [{
+			'name': '豆瓣云资源',
+			'rema': 'HTTP下载',
+			'apis': 'http://www.dbzyz.com/inc/apidown.php',
+			'flag': 'dbzyz',
+			'coll': 'down',
+			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}, {
+			'name': '最大云资源',
+			'rema': '迅雷下载',
+			'apis': 'http://www.zdziyuan.com/inc/s_apidown.php',
+			'flag': 'zuida',
+			'coll': 'down',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}, {
+			'name': '精品云资源',
+			'rema': '迅雷下载',
+			'apis': 'http://www.jingpinzy.com/inc/apidown.php',
+			'flag': 'jingpin',
+			'coll': 'down',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}, {
+			'name': '小黄瓜资源',
+			'rema': '叉站资源',
+			'apis': 'http://cj.xhgcjym.com/inc/apidown.php',
+			'flag': 'huagua',
+			'coll': 'down',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': '&param=JmN0PTE'
+		}]
+	},
 	'disk': {
 		'head': '网盘资源专区',
 		'tips': '',
@@ -311,6 +343,15 @@ var vfed = {
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
 			'down': ''
+		}, {
+			'name': '35盘云资源',
+			'rema': 'https资源',
+			'apis': 'http://collect.35pan.com/mac.php',
+			'flag': 'sanwu',
+			'coll': '35pan',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
 		}]
 	},
 	'vfed': {
@@ -319,10 +360,10 @@ var vfed = {
 		'rows': [{
 			'name': '6U云资源',
 			'rema': '含VIP视频',
-			'apis': 'http://zy.ai5z.com/inc/api.php',
+			'apis': 'http://zy.ataoju.com/inc/api.php',
 			'flag': 'liuu',
 			'coll': 'all',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -378,64 +419,64 @@ var vfed = {
 		'rows': [{
 			'name': '优酷资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apiyouku.php',
+			'apis': 'http://zy.ataoju.com/inc/apiyouku.php',
 			'flag': 'liuu',
 			'coll': 'youku',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '腾讯资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apiqq.php',
+			'apis': 'http://zy.ataoju.com/inc/apiqq.php',
 			'flag': 'liuu',
 			'coll': 'qq',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '芒果资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apimgtv.php',
+			'apis': 'http://zy.ataoju.com/inc/apimgtv.php',
 			'flag': 'liuu',
 			'coll': 'mgtv',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '乐视资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apiletv.php',
+			'apis': 'http://zy.ataoju.com/inc/apiletv.php',
 			'flag': 'liuu',
 			'coll': 'letv',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '搜狐资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apisohu.php',
+			'apis': 'http://zy.ataoju.com/inc/apisohu.php',
 			'flag': 'liuu',
 			'coll': 'sohu',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': 'PPTV资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apipptv.php',
+			'apis': 'http://zy.ataoju.com/inc/apipptv.php',
 			'flag': 'liuu',
 			'coll': 'pptv',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
 			'name': '爱奇艺资源',
 			'rema': '6U云资源',
-			'apis': 'http://zy.ai5z.com/inc/apiqiyi.php',
+			'apis': 'http://zy.ataoju.com/inc/apiqiyi.php',
 			'flag': 'liuu',
 			'coll': 'qiyi',
-			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
+			'tips': '<span class="layui-badge layui-bg-cyan">经常失效</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -579,10 +620,10 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '666云资源',
+			'name': '哈酷云资源',
 			'rema': '顶部跑马灯水印',
-			'apis': 'http://zy.666zyw.net/inc/api.php',
-			'flag': 'liuliu',
+			'apis': 'http://api.haku77.com/inc/api.php',
+			'flag': 'haku',
 			'coll': 'all',
 			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
 			'sell': '',
@@ -791,10 +832,10 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '666云资源',
+			'name': '哈酷云资源',
 			'rema': '顶部跑马灯水印',
-			'apis': 'http://zy.666zyw.net/inc/666yun.php',
-			'flag': 'liuliu',
+			'apis': 'http://api.haku77.com/inc/hkzy.php',
+			'flag': 'haku',
 			'coll': 'line',
 			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
 			'sell': '',
@@ -994,10 +1035,10 @@ var vfed = {
 		'head': '叉站资源专区',
 		'tips': '',
 		'rows': [{
-			'name': '1769云资源',
-			'rema': '不支持https',
-			'apis': 'http://cj.vod1769.com/zyapimacc.php',
-			'flag': 'yiqiliujiu',
+			'name': '2048云资源',
+			'rema': '云播,https资源',
+			'apis': 'http://2048zy5.com/inc/api.php',
+			'flag': 'erling',
 			'coll': 'line',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'sell': '',
@@ -1110,7 +1151,8 @@ $.each(vfed, function(list, name) {
 document.write(html);
 $('.timming').click(function() {
 	if(confirm('确认添加到定时任务吗？')) {
-		$.post('../../../template/vfed/asset/fed/create.php?id=tim', 'name=' + $(this).attr('data-name') + '&flag=' + $(this).attr('data-flag') + '&param=' + encodeURIComponent($(this).attr('data-param')), function(data) {
+		var arr = document.cookie.match(new RegExp('(^| )admin_name=([^;]*)(;|$)'));
+		$.post('../../../template/vfed/asset/fed/create.php?id=tim', 'admin=' + arr[2] + '&name=' + $(this).attr('data-name') + '&flag=' + $(this).attr('data-flag') + '&param=' + encodeURIComponent($(this).attr('data-param')), function(data) {
 			alert(data.msg);
 		}).error(function(data) {
 			if(data.status == 404) {
