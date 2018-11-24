@@ -77,15 +77,6 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '哈酷云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.haku77.com/inc/hkm3u8.php',
-			'flag': 'haku',
-			'coll': '哈酷在线,hkm3u8,18,1,asset/fed/player.php?url=',
-			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
-			'sell': '',
-			'down': ''
-		}, {
 			'name': '最快云资源',
 			'rema': '右下角短时出现水印',
 			'apis': 'http://cj.zuikzy.com/inc/zkm3u8.php',
@@ -275,6 +266,15 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/hkm3u8.php',
+			'flag': 'haku',
+			'coll': '哈酷在线,hkm3u8,18,1,asset/fed/player.php?url=',
+			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '青云云资源',
 			'rema': '内置同行水印',
 			'apis': 'http://www.xiaosao.bi/inc/ckplayers.php',
@@ -353,6 +353,15 @@ var vfed = {
 		'head': '网盘资源专区',
 		'tips': '',
 		'rows': [{
+			'name': '41盘云资源',
+			'rema': 'https资源',
+			'apis': 'http://api.666zyw.net/mac.php',
+			'flag': 'siyi',
+			'coll': '35在线,35m3u8,56,1,asset/fed/player.php?url=|35云播,35yun,57,1,asset/fed/player.php?url=',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '35盘云资源',
 			'rema': 'https资源',
 			'apis': 'http://collect.35pan.com/mac.php',
@@ -647,15 +656,6 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
-			'name': '哈酷云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.haku77.com/inc/api.php',
-			'flag': 'haku',
-			'coll': '哈酷在线,hkm3u8,18,1,asset/fed/player.php?url=|哈酷云播,hkzy,19,1,asset/fed/player.php?url=',
-			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
-			'sell': '',
-			'down': ''
-		}, {
 			'name': '最快云资源',
 			'rema': '右下角短时出现水印',
 			'apis': 'http://cj.zuikzy.com/inc/api.php',
@@ -844,6 +844,15 @@ var vfed = {
 			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
 			'sell': '',
 			'down': ''
+		}, {
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/api.php',
+			'flag': 'haku',
+			'coll': '哈酷在线,hkm3u8,18,1,asset/fed/player.php?url=|哈酷云播,hkzy,19,1,asset/fed/player.php?url=',
+			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
+			'sell': '',
+			'down': ''
 		}]
 	},
 	'play': {
@@ -865,15 +874,6 @@ var vfed = {
 			'flag': 'bajie',
 			'coll': '八戒云播,bjyun,17,1,asset/fed/player.php?url=',
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
-			'sell': '',
-			'down': ''
-		}, {
-			'name': '哈酷云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.haku77.com/inc/hkzy.php',
-			'flag': 'haku',
-			'coll': '哈酷云播,hkzy,19,1,asset/fed/player.php?url=',
-			'tips': '<span class="layui-badge layui-bg-red">移动宽带</span>',
 			'sell': '',
 			'down': ''
 		}, {
@@ -1066,6 +1066,15 @@ var vfed = {
 			'sell': '',
 			'down': ''
 		}, {
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/hkzy.php',
+			'flag': 'haku',
+			'coll': '哈酷云播,hkzy,19,1,asset/fed/player.php?url=',
+			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': 'C值云资源',
 			'rema': '不支持https,底部,右下',
 			'apis': 'http://www.czhiziyuan.com/inc/api.php',
@@ -1177,7 +1186,7 @@ $.each(vfed, function(list, name) {
 		} else {
 			html += '<td><a href="' + url1 + info.down + '">' + info.name + '【' + info.rema + '】' + info.sell + '</a></td>';
 			html += '<td width="60" align="center"><a href="javascript:;" class="players" data-name="' + info.name + '" data-type="' + list + '" data-flag="' + info.coll + '" data-desc="' + info.rema + '" data-tips="' + info.tips.match(/[\u4e00-\u9fa5]{2,}/g) + '">' + type + '配置</a></td>';
-			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + encodeURIComponent(info.name + '【' + name.head + '】') + '" data-flag="' + encodeURIComponent(info.flag + list) + '" data-param="' + url2.replace('api?', '') + info.down + '">定时采集</a></td>';
+			html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + info.name + '【' + name.head + '】' + '" data-flag="' + info.flag + list + '" data-param="' + url2.replace('api?', '') + info.down + '">定时采集</a></td>';
 			html += '<td width="60" align="center"><a href="' + url2 + info.down + '">采集当天</a></td>';
 			html += '<td width="60" align="center"><a href="' + url3 + info.down + '">采集本周</a></td>';
 		}
@@ -1199,7 +1208,7 @@ $('.timming').click(function() {
 });
 $('.players').click(function() {
 	if(confirm('确认添加到系统配置中吗？')) {
-		$.post($('.collect').attr('data-path') + 'asset/fed/create.php?id=vod', 'admin=' + arrs[2] + '&name=' + $(this).attr('data-name') + '&type=' + $(this).attr('data-type') + '&flag=' + $(this).attr('data-flag') + '&tips=' + $(this).attr('data-tips') + '&desc=' + $(this).attr('data-desc'), function(data) {
+		$.post($('.collect').attr('data-path') + 'asset/fed/create.php?id=vod', 'admin=' + arrs[2] + '&name=' + $(this).attr('data-name') + '&type=' + $(this).attr('data-type') + '&flag=' + encodeURIComponent($(this).attr('data-flag')) + '&tips=' + $(this).attr('data-tips') + '&desc=' + $(this).attr('data-desc'), function(data) {
 			alert(data.msg);
 		}).error(function(data) {
 			if(data.status == 404) {
