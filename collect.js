@@ -36,6 +36,15 @@ var vfed = {
 		'head': '推荐资源专区',
 		'tips': '',
 		'rows': [{
+			'name': '172云资源',
+			'rema': '右下角常驻水印',
+			'apis': 'http://www.162zy.com/inc/172m3u8.php',
+			'flag': 'yiqier',
+			'coll': '172在线,172m3u8,68,1,asset/fed/player.php?url=',
+			'tips': '<span class="layui-badge layui-bg-red">国外节点</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '1769云资源',
 			'rema': '叉站资源',
 			'apis': 'http://cj.vod1769.com/zyapimacc.php',
