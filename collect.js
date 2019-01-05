@@ -36,6 +36,15 @@ var vfed = {
 		'head': '推荐资源专区',
 		'tips': '',
 		'rows': [{
+			'name': '大地云资源',
+			'rema': '右下角常驻水印',
+			'apis': 'https://dadiapi.com/api.php',
+			'flag': 'dadiapi',
+			'coll': '大地在线,dadim3u8,48,1,asset/fed/player.php?url=|大地云播,dadi,49,1,asset/fed/player.php?url=',
+			'tips': '<span class="layui-badge layui-bg-red">速度最快</span>',
+			'sell': '',
+			'down': ''
+		}, {
 			'name': '172云资源',
 			'rema': '右下角常驻水印',
 			'apis': 'http://www.162zy.com/inc/172m3u8.php',
