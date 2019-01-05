@@ -37,7 +37,7 @@ var vfed = {
 		'tips': '',
 		'rows': [{
 			'name': '大地云资源',
-			'rema': '顶部跑马灯水印',
+			'rema': '叉站资源',
 			'apis': 'https://dadiapi.com/api.php',
 			'flag': 'dadiapi',
 			'coll': '大地在线,dadim3u8,48,1,asset/fed/player.php?url=|大地云播,dadi,49,1,asset/fed/player.php?url=',
