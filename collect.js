@@ -16,18 +16,18 @@ var dcys = {
 			'tip4': '售后服务',
 			'url4': 'https://jq.qq.com/?_wv=1027&k=5yxZxwq'
 		}, {
-			'name': '超清无水印解析',
+			'name': '无广告VIP解析接口',
 			'rema': '支持https',
-			'urls': 'https://jx.itaoju.top/?url=',
+			'urls': 'https://jx.aldsw.cn/jx/index.php?url=',
 			'tips': '<span class="layui-badge layui-bg-green">免费解析</span>',
 			'tip1': '优酷演示',
-			'url1': '//jx.itaoju.top/?url=https://v.youku.com/v_show/id_XMjg5NzgyNjA5Mg==.html',
+			'url1': '//jx.aldsw.cn/jx/index.php?url=https://v.youku.com/v_show/id_XMjg5NzgyNjA5Mg==.html',
 			'tip2': '腾讯演示',
-			'url2': '//jx.itaoju.top/?url=https://v.qq.com/x/cover/h188mdjtrh3up22.html',
+			'url2': '//jx.aldsw.cn/jx/index.php?url=https://v.qq.com/x/cover/h188mdjtrh3up22.html',
 			'tip3': '奇艺演示',
-			'url3': '//jx.itaoju.top/?url=https://www.iqiyi.com/v_19rrnzk2lc.html',
+			'url3': '//jx.aldsw.cn/jx/index.php?url=https://www.iqiyi.com/v_19rrnzk2lc.html',
 			'tip4': '搜狐演示',
-			'url4': '//jx.itaoju.top/?url=https://tv.sohu.com/v/MjAxNTEwMTUvbjQyMzM1NjM5NC5zaHRtbA==.html'
+			'url4': '//jx.aldsw.cn/jx/index.php?url=https://tv.sohu.com/v/MjAxNTEwMTUvbjQyMzM1NjM5NC5zaHRtbA==.html'
 		}, {
 			'name': '免费无广告解析',
 			'rema': '支持https',
