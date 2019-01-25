@@ -224,7 +224,7 @@ var dcys = {
 			'name': '极速云资源',
 			'rema': '右下角短时出现水印',
 			'apis': 'http://www.caijizy.com/inc/jsm3u8.php',
-			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '极速在线,jsm3u8,48,1'
 		}, {
 			'flag': 'kubo',
@@ -252,7 +252,7 @@ var dcys = {
 			'name': '百万云资源',
 			'rema': '右下角短时出现水印',
 			'apis': 'http://www.baiwanzy.com/inc/bwm3u8.php',
-			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '百万在线,bwm3u8,51,1'
 		}, {
 			'flag': 'haku',
