@@ -47,6 +47,13 @@ var dcys = {
 		'head': '推荐资源专区',
 		'tips': '',
 		'rows': [{
+			'flag': 'haku',
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/api.php',
+			'tips': '<span class="layui-badge layui-bg-green">速度最快</span>',
+			'coll': '哈酷在线,hkm3u8,18,1|哈酷云播,hkzy,19,1'
+		}, {
 			'flag': 'dadiapi',
 			'name': '大地云资源',
 			'rema': '叉站资源',
