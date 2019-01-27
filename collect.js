@@ -1,9 +1,9 @@
 var dcys = {
 	'advs': {
 		'head': '广告投放 >>> 官方QQ群：<a href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
-		'tips': '',
+		'tips': '如果对您的资源站排序有误,请联系我修改',
 		'rows': [{
-			'name': 'vfed主题资源库',
+			'name': 'vfed苹果CMS超级主题',
 			'rema': 'http://vfed.cc',
 			'urls': 'http://vfed.cc',
 			'tips': '<span class="layui-badge layui-bg-red">吐血推荐</span>',
@@ -11,14 +11,14 @@ var dcys = {
 			'url1': 'http://vfed.cc',
 			'tip2': '主题演示',
 			'url2': 'https://vfed.eu.org',
-			'tip3': '主题教程',
-			'url3': 'http://t.cn/ReZ3Mjy',
+			'tip3': '主题交流',
+			'url3': 'https://jq.qq.com/?_wv=1027&k=51Zakp5',
 			'tip4': '售后服务',
 			'url4': 'https://jq.qq.com/?_wv=1027&k=5yxZxwq'
 		}, {
-			'name': '无广告VIP解析接口',
+			'name': '超清无水印解析',
 			'rema': '支持https',
-			'urls': 'https://jx.aldsw.cn/jx/index.php?url=',
+			'urls': '//jx.aldsw.cn/jx/index.php?url=',
 			'tips': '<span class="layui-badge layui-bg-green">免费解析</span>',
 			'tip1': '优酷演示',
 			'url1': '//jx.aldsw.cn/jx/index.php?url=https://v.youku.com/v_show/id_XMjg5NzgyNjA5Mg==.html',
@@ -107,6 +107,13 @@ var dcys = {
 			'apis': 'http://zy.bajieziyuan.com/inc/bjm3u8.php',
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
 			'coll': '八戒在线,bjm3u8,16,1'
+		}, {
+			'flag': 'subo',
+			'name': '速播云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'https://www.subo8988.com/inc/maccms_subom3u8.php',
+			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'coll': '速播在线,subom3u8,83,1'
 		}, {
 			'flag': 'jdyzy',
 			'name': '筋斗云资源',
@@ -220,6 +227,13 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '百万在线,bwm3u8,51,1'
 		}, {
+			'flag': 'haku',
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/hkm3u8.php',
+			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
+			'coll': '哈酷在线,hkm3u8,18,1'
+		}, {
 			'flag': 'yierjiu',
 			'name': '129云资源',
 			'rema': '不支持https,右下,中间',
@@ -261,26 +275,12 @@ var dcys = {
 			'apis': 'http://cj.vipzy.cc/inc/apim3u8.php',
 			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
 			'coll': '酷云在线,ckm3u8,30,1|'
-		}, {
-			'flag': 'haku',
-			'name': '哈酷云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.haku77.com/inc/hkm3u8.php',
-			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
-			'coll': '哈酷在线,hkm3u8,18,1'
 		}]
 	},
 	'news': {
 		'head': '资讯资源专区',
 		'tips': '',
 		'rows': [{
-			'flag': 'duteyun',
-			'name': '独特云资源',
-			'rema': '有广告谨慎采集',
-			'apis': 'http://tv.dut8.com/api.php/provide/art/?ac=list',
-			'tips': '<span class="layui-badge layui-bg-green">娱乐八卦</span>',
-			'coll': ''
-		}, {
 			'flag': 'wubaqxk',
 			'name': '五八云资源',
 			'rema': '有广告谨慎采集',
@@ -673,6 +673,13 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
 			'coll': '八戒在线,bjm3u8,16,1|八戒云播,bjyun,17,1'
 		}, {
+			'flag': 'subo',
+			'name': '速播云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'https://www.subo8988.com/inc/api.php',
+			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'coll': '速播在线,subom3u8,83,1|速播云播,suboyun,83,1'
+		}, {
 			'flag': 'jdyzy',
 			'name': '筋斗云资源',
 			'rema': '右下角短时出现水印',
@@ -771,6 +778,27 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '酷云在线,ckm3u8,30,1|酷云云播,kuyun,31,1'
 		}, {
+			'flag': 'jisu',
+			'name': '极速云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'http://www.caijizy.com/inc/api.php',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'coll': '极速在线,jsm3u8,48,1|极速云播,jsyun,49,1'
+		}, {
+			'flag': 'baiwan',
+			'name': '百万云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'http://www.baiwanzy.com/inc/api.php',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'coll': '百万在线,bwm3u8,51,1|百万云播,bwyun,52,1'
+		}, {
+			'flag': 'haku',
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/api.php',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'coll': '哈酷在线,hkm3u8,18,1|哈酷云播,hkzy,19,1'
+		}, {
 			'flag': 'yierjiu',
 			'name': '129云资源',
 			'rema': '不支持https,右下,中间',
@@ -792,13 +820,6 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
 			'coll': '千客在线,gom3u8,46,1|千客云播,link,47,1'
 		}, {
-			'flag': 'jisu',
-			'name': '极速云资源',
-			'rema': '右下角短时出现水印',
-			'apis': 'http://www.caijizy.com/inc/api.php',
-			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
-			'coll': '极速在线,jsm3u8,48,1|极速云播,jsyun,49,1'
-		}, {
 			'flag': 'kubo',
 			'name': '酷播云资源',
 			'rema': '顶部跑马灯水印',
@@ -819,20 +840,6 @@ var dcys = {
 			'apis': 'http://cj.vipzy.cc/inc/api.php',
 			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
 			'coll': '酷云在线,ckm3u8,30,1|酷云云播,kuyun,31,1'
-		}, {
-			'flag': 'baiwan',
-			'name': '百万云资源',
-			'rema': '右下角短时出现水印',
-			'apis': 'http://www.baiwanzy.com/inc/api.php',
-			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
-			'coll': '百万在线,bwm3u8,51,1|百万云播,bwyun,52,1'
-		}, {
-			'flag': 'haku',
-			'name': '哈酷云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.haku77.com/inc/api.php',
-			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
-			'coll': '哈酷在线,hkm3u8,18,1|哈酷云播,hkzy,19,1'
 		}]
 	},
 	'play': {
@@ -866,6 +873,13 @@ var dcys = {
 			'apis': 'http://zy.bajieziyuan.com/inc/bjyun.php',
 			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
 			'coll': '八戒云播,bjyun,17,1'
+		}, {
+			'flag': 'subo',
+			'name': '速播云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'https://www.subo8988.com/inc/maccms_suboyun.php',
+			'tips': '<span class="layui-badge layui-bg-red">国内分发</span>',
+			'coll': '速播云播,suboyun,83,1'
 		}, {
 			'flag': 'jdyzy',
 			'name': '筋斗云资源',
@@ -965,6 +979,27 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '酷云云播,kuyun,31,1'
 		}, {
+			'flag': 'jisu',
+			'name': '极速云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'http://www.caijizy.com/inc/jsyun.php',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'coll': '极速云播,jsyun,49,1'
+		}, {
+			'flag': 'baiwan',
+			'name': '百万云资源',
+			'rema': '右下角短时出现水印',
+			'apis': 'http://www.baiwanzy.com/inc/bwyun.php',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'coll': '百万云播,bwyun,52,1'
+		}, {
+			'flag': 'haku',
+			'name': '哈酷云资源',
+			'rema': '顶部跑马灯水印',
+			'apis': 'http://api.haku77.com/inc/hkzy.php',
+			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'coll': '哈酷云播,hkzy,19,1'
+		}, {
 			'flag': 'yierjiu',
 			'name': '129云资源',
 			'rema': '不支持https,右下,中间',
@@ -986,13 +1021,6 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
 			'coll': '千客云播,link,47,1'
 		}, {
-			'flag': 'jisu',
-			'name': '极速云资源',
-			'rema': '右下角短时出现水印',
-			'apis': 'http://www.caijizy.com/inc/jsyun.php',
-			'tips': '<span class="layui-badge layui-bg-gray">龟速播放</span>',
-			'coll': '极速云播,jsyun,49,1'
-		}, {
 			'flag': 'kubo',
 			'name': '酷播云资源',
 			'rema': '顶部跑马灯水印',
@@ -1013,27 +1041,6 @@ var dcys = {
 			'apis': 'http://cj.vipzy.cc/inc/apikuyun.php',
 			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
 			'coll': '酷云云播,kuyun,31,1'
-		}, {
-			'flag': 'baiwan',
-			'name': '百万云资源',
-			'rema': '右下角短时出现水印',
-			'apis': 'http://www.baiwanzy.com/inc/bwyun.php',
-			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
-			'coll': '百万云播,bwyun,52,1'
-		}, {
-			'flag': 'haku',
-			'name': '哈酷云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.haku77.com/inc/hkzy.php',
-			'tips': '<span class="layui-badge layui-bg-gray">无法采集</span>',
-			'coll': '哈酷云播,hkzy,19,1'
-		}, {
-			'flag': 'czhi',
-			'name': 'C值云资源',
-			'rema': '不支持https,底部,右下',
-			'apis': 'http://www.czhiziyuan.com/inc/api.php',
-			'tips': '<span class="layui-badge layui-bg-gray">水印太多</span>',
-			'coll': 'C值云播,yzm,53,1'
 		}]
 	},
 	'fuck': {
