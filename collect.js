@@ -206,13 +206,6 @@ var dcys = {
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '97在线,97zyck,40,1'
 		}, {
-			'flag': 'okzy',
-			'name': 'OK云资源',
-			'rema': '顶部跑马灯水印',
-			'apis': 'http://api.iokzy.com/inc/apickm3u8s.php',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
-			'coll': '酷云在线,ckm3u8,30,1'
-		}, {
 			'flag': 'jisu',
 			'name': '极速云资源',
 			'rema': '右下角短时出现水印',
@@ -275,6 +268,13 @@ var dcys = {
 			'apis': 'http://cj.vipzy.cc/inc/apim3u8.php',
 			'tips': '<span class="layui-badge layui-bg-gray">经常失效</span>',
 			'coll': '酷云在线,ckm3u8,30,1|'
+		}, {
+			'flag': 'okzy',
+			'name': 'OK云资源',
+			'rema': '资源有挂马,请勿采集',
+			'apis': 'http://api.iokzy.com/inc/apickm3u8s.php',
+			'tips': '<span class="layui-badge layui-bg-gray">国外节点</span>',
+			'coll': '酷云在线,ckm3u8,30,1'
 		}]
 	},
 	'news': {
@@ -361,7 +361,7 @@ var dcys = {
 		}, {
 			'flag': 'okzy',
 			'name': 'OK云资源',
-			'rema': '迅雷下载',
+			'rema': '资源有挂马,请勿采集',
 			'apis': 'http://api.iokzy.com/inc/apidown.php',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '迅雷下载,xunlei,03,1'
@@ -773,7 +773,7 @@ var dcys = {
 		}, {
 			'flag': 'okzy',
 			'name': 'OK云资源',
-			'rema': '顶部跑马灯水印',
+			'rema': '资源有挂马,请勿采集',
 			'apis': 'http://api.iokzy.com/inc/api1s.php',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '酷云在线,ckm3u8,30,1|酷云云播,kuyun,31,1'
@@ -974,7 +974,7 @@ var dcys = {
 		}, {
 			'flag': 'okzy',
 			'name': 'OK云资源',
-			'rema': '顶部跑马灯水印',
+			'rema': '资源有挂马,请勿采集',
 			'apis': 'http://api.iokzy.com/inc/apikuyuns.php',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '酷云云播,kuyun,31,1'
