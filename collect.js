@@ -1,6 +1,6 @@
 var dcys = {
 	'advs': {
-		'head': '广告投放 >>> 官方QQ群：<a href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
+		'head': '广告投放 >>> 官方QQ群：<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
 		'tips': '如果对您的资源站排序有误,请联系我修改',
 		'rows': [{
 			'name': 'vfed苹果CMS超级主题',
@@ -893,7 +893,7 @@ var dcys = {
 	},
 	'fuck': {
 		'head': '叉站资源专区',
-		'tips': '叉站资源已关闭,如需采集请联系<a href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a>',
+		'tips': '叉站资源已关闭,如需采集请联系<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a>',
 		'rows': [{
 			'flag': 'dadiapi',
 			'name': '大地云资源',
