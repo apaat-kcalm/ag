@@ -1380,7 +1380,7 @@ var comm = {
 	}
 }
 layui.use(['form', 'layer'], function() {
-	var urls = $('.j-ajax', parent.document).attr('href').replace(vfed.depr + 'index' + vfed.depr + 'clear.html', '') + '/collect/api?ac={ac}&h={h}&cjflag={flag}&cjurl={apis}';
+	var urls = $('.j-ajax', parent.document).attr('href').replace('/index/clear.html', '') + '/collect/api?ac={ac}&h={h}&cjflag={flag}&cjurl={apis}';
 	var layer = layui.layer;
 	var form = layui.form;
 	comm.lister.each(urls);
