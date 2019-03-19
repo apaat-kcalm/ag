@@ -939,7 +939,7 @@ var dcys = {
 			'rema': '右下角短时出现水印',
 			'apis': 'http://www.jdyzy.cc/inc/jdyzy.php',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
-			'coll': '筋斗云播,jdyzy,893,1'
+			'coll': '筋斗云播,jdyun,893,1'
 		}, {
 			'flag': 'zuikuai',
 			'name': '最快云资源',
