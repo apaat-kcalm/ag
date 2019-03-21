@@ -1,4 +1,12 @@
 var dcys = {
+	'pics': {
+		'rows': [{
+			'name': '苹果CMS大橙影视模板',
+			'urls': 'https://jq.qq.com/?_wv=1027&k=51Zakp5',
+			'pics': 'https://ws3.sinaimg.cn/large/007vLMz8ly1g1aa1umgn8j30xc03cn0k.jpg',
+			'tips': '苹果CMS大橙影视模板'
+		}]
+	},
 	'advs': {
 		'head': '广告投放 >>> 官方QQ群：<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a> >>>',
 		'tips': '如果对您的资源站排序有误,请联系我修改',
@@ -57,7 +65,7 @@ var dcys = {
 	},
 	'm3u8': {
 		'head': '切片资源专区',
-		'tips': 'vfed主题推荐全站使用M3U8资源，支持自动播放下一集',
+		'tips': '大橙影视模板推荐全站使用M3U8资源，支持自动播放下一集',
 		'rows': [{
 			'flag': 'haku',
 			'name': '哈酷云资源',
@@ -272,7 +280,7 @@ var dcys = {
 	},
 	'live': {
 		'head': '直播资源专区',
-		'tips': 'vfed主题授权用户采集直播源请联系群主',
+		'tips': '',
 		'rows': [{
 			'flag': 'reboju',
 			'name': '热播剧资源',
@@ -400,7 +408,7 @@ var dcys = {
 			'flag': 'youxuan',
 			'name': '优炫云资源',
 			'rema': '含VIP视频',
-			'apis': 'http://zy.mypay.ac.cn/api.php/provide/vod/from/iyxtv/at/xml',
+			'apis': 'http://zy.mypay.ac.cn/api.php/provide/vod',
 			'tips': '<span class="layui-badge layui-bg-green">正常采集</span>',
 			'coll': '腾讯视频,qq,799,1|优酷视频,youku,798,1|奇艺视频,qiyi,797,1|芒果视频,mgtv,796,1|搜狐视频,sohu,795,1|乐视视频,letv,794,1|PP视频,pptv,793,1'
 		}, {
@@ -1105,7 +1113,7 @@ var dcys = {
 	},
 	'fuck': {
 		'head': '叉站资源专区',
-		'tips': '叉站资源已关闭,如需采集请购买大橙主题,联系QQ<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a>',
+		'tips': '叉站资源已关闭,如需采集请购买大橙影视模板,联系QQ<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a>',
 		'rows': [{
 			'flag': 'dadiapi',
 			'name': '大地云资源',
@@ -1188,12 +1196,13 @@ var dcys = {
 };
 var comm = {
 	'lister': {
-		'each': function(urls) {
+		'each': function(home, urls) {
 			var html = '';
 			$.each(dcys, function(list, name) {
 				var fuck = list == 'fuck' ? 'layui-hide' : '';
-				if(comm.cookie.get('fed_fuck')) var fuck = '';
-				html += '<table class="layui-table"><thead><tr><td colspan="7"><span style="float:left">' + name.head + '</span><span style="float:right">' + name.tips + '</span></td></tr></thead><tbody>';
+				var fuck = comm.cookie.get('fed_fuck') ? '' : fuck;
+				var head = list == 'pics' ? '' : '<thead><tr><td colspan="7"><span style="float:left">' + name.head + '</span><span style="float:right">' + name.tips + '</span></td></tr></thead>';
+				html += '<table class="layui-table">' + head + '<tbody>';
 				$.each(name.rows, function(nums, info) {
 					var type = list == 'down' ? '下载' : '播放';
 					var nums = (nums + 1) < 10 ? '0' + (nums + 1) : (nums + 1);
@@ -1202,9 +1211,10 @@ var comm = {
 					var url3 = urls.replace('{flag}', info.flag).replace('{apis}', info.apis).replace('{ac}', 'cj').replace('{h}', '168');
 					var url4 = urls.replace('{flag}', info.flag).replace('{apis}', info.apis).replace('{ac}', 'cj').replace('{h}', '');
 					html += '<tr class="' + fuck + '">';
-					html += '<td width="20" align="center">' + nums + '</td>';
-					html += '<td width="70" align="center">' + info.tips + '</td>';
-					if(list == 'advs') {
+					html += list == 'pics' ? '' : '<td width="20" align="center">' + nums + '</td><td width="70" align="center">' + info.tips + '</td>';
+					if(list == 'pics') {
+						html += '<td colspan="7" style="padding:0"><a target="_blank" href="' + info.urls + '" title="' + info.name + '"><img src="' + info.pics + '"  alt="' + info.tips + '" style="max-width:100%;width:100%;" /></a></td>';
+					} else if(list == 'advs') {
 						html += '<td><a class="conceal" target="_blank" href="' + info.urls + '">' + info.name + '【' + info.rema + '】</a></td>';
 						html += '<td width="60" align="center"><a target="_blank" href="' + info.url1 + '">' + info.tip1 + '</a></td></td>';
 						html += '<td width="60" align="center"><a target="_blank" href="' + info.url2 + '">' + info.tip2 + '</a></td>';
@@ -1212,14 +1222,14 @@ var comm = {
 						html += '<td width="60" align="center"><a target="_blank" href="' + info.url4 + '">' + info.tip4 + '</a></td>';
 					} else if(list == 'news' || list == 'star') {
 						html += '<td><a href="' + url1 + '&mid=' + (list == 'news' ? 2 : 8) + '">' + info.name + '【' + info.rema + '】</a></td>';
-						html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + info.name + '【' + name.head + '】' + '" data-flag="' + info.flag + list + '" data-param="' + url2.replace($('.j-ajax', parent.document).attr('href').replace('/index/clear.html', '') + '/collect/api?', '') + '">定时采集</a></td>';
+						html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + info.name + '【' + name.head + '】' + '" data-flag="' + info.flag + list + '" data-param="' + url2.replace(home, '') + '">定时采集</a></td>';
 						html += '<td width="60" align="center"><a href="' + url2 + '">采集当天</a></td>';
 						html += '<td width="60" align="center"><a href="' + url3 + '">采集本周</a></td>';
 						html += '<td width="60" align="center"><a href="' + url4 + '">采集全部</a></td>';
 					} else {
 						html += '<td><a href="' + url1 + (list == 'down' ? '&param=JmN0PTE' : '') + '">' + info.name + '【' + info.rema + '】</a></td>';
 						html += '<td width="60" align="center"><a href="javascript:;" class="player" data-name="' + info.name + '" data-type="' + list + '" data-flag="' + info.coll + '" data-desc="' + info.rema + '" data-tips="' + info.tips.match(/[\u4e00-\u9fa5]{2,}/g) + '">' + type + '配置</a></td>';
-						html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + info.name + '【' + name.head + '】' + '" data-flag="' + info.flag + list + '" data-param="' + url2.replace($('.j-ajax', parent.document).attr('href').replace('/index/clear.html', '') + '/collect/api?', '') + '">定时采集</a></td>';
+						html += '<td width="60" align="center"><a href="javascript:;" class="timming" data-name="当日采集：' + info.name + '【' + name.head + '】' + '" data-flag="' + info.flag + list + '" data-param="' + url2.replace(home, '') + '">定时采集</a></td>';
 						html += '<td width="60" align="center"><a href="' + url2 + '">采集当天</a></td>';
 						html += '<td width="60" align="center"><a href="' + url3 + '">采集本周</a></td>';
 					}
@@ -1238,10 +1248,11 @@ var comm = {
 					title: '添加定时任务',
 				}, function() {
 					$.post(vfed.tpls + 'asset/fed/create.php?id=tim&name=' + vfed.name, 'name=' + that.attr('data-name') + '&flag=' + that.attr('data-flag') + '&param=' + encodeURIComponent(that.attr('data-param')), function(data) {
-						layer.alert(data.msg + '！如未生效请手动清理缓存');
+						if(data.msg) layer.alert(data.msg + '！如未生效请手动清理缓存');
+						else layer.alert('请求失败');
 					}).error(function(data) {
 						if(data.status == 404) {
-							layer.confirm('独立版暂不支持一键添加定时任务,如有需要请点击确定了解详情', {
+							layer.confirm('独立版暂不支持一键添加定时任务,请搭配大橙影视模板使用,如有需要请点击确定了解详情', {
 								title: '提示',
 							}, function() {
 								location.href = 'http://t.cn/RBfAHG5';
@@ -1262,10 +1273,11 @@ var comm = {
 					title: '添加' + type + '器',
 				}, function() {
 					$.post(vfed.tpls + 'asset/fed/create.php?id=vod&name=' + vfed.name, 'name=' + that.attr('data-name') + '&type=' + that.attr('data-type') + '&flag=' + encodeURIComponent(that.attr('data-flag')) + '&tips=' + m3u8 + '&desc=' + that.attr('data-desc'), function(data) {
-						layer.alert(data.msg + '！如未生效请手动清理缓存');
+						if(data.msg) layer.alert(data.msg + '！如未生效请手动清理缓存');
+						else layer.alert('请求失败');
 					}).error(function(data) {
 						if(data.status == 404) {
-							layer.confirm('独立版暂不支持一键添加' + type + '器,如有需要请点击确定了解详情', {
+							layer.confirm('独立版暂不支持一键添加' + type + '器,请搭配大橙影视模板使用,如有需要请点击确定了解详情', {
 								title: '提示',
 							}, function() {
 								location.href = 'http://t.cn/RBfAHG5';
@@ -1293,10 +1305,11 @@ var comm = {
 					title: $(this).text()
 				}, function() {
 					$.post(vfed.tpls + 'asset/fed/create.php?id=cop&name=' + vfed.name, 'urls=&news=' + encodeURIComponent(that.attr('data-copy')) + '&nows=' + encodeURIComponent('../../../../' + that.attr('data-href')), function(data) {
-						layer.alert(data.msg + '！如未生效请手动清理缓存');
+						if(data.msg) layer.alert(data.msg + '！如未生效请手动清理缓存');
+						else layer.alert('请求失败');
 					}).error(function(data) {
 						if(data.status == 404) {
-							layer.confirm('独立版暂不支持一键设置功能,如有需要请点击确定了解详情', {
+							layer.confirm('独立版暂不支持一键设置功能,请搭配大橙影视模板使用,如有需要请点击确定了解详情', {
 								title: '提示',
 							}, function() {
 								location.href = 'http://t.cn/RBfAHG5';
@@ -1377,15 +1390,27 @@ var comm = {
 			var cval = this.get(name);
 			if(cval != null) document.cookie = name + '=' + escape(cval) + ';path=/;expires=' + exp.toUTCString();
 		}
+	},
+	'update': {
+		'vers': '1.1',
+		'init': function() {
+			if(vfed.vers != this.vers) {
+				layer.alert('当前版本已失效,请加QQ群137183109下载最新版插件,主题用户请升级最新版主题或者使用本地资源库', function(index) {
+					location.href = 'https://jq.qq.com/?_wv=1027&k=51Zakp5';
+				});
+			}
+		}
 	}
 }
 layui.use(['form', 'layer'], function() {
-	var urls = $('.j-ajax', parent.document).attr('href').replace('/index/clear.html', '') + '/collect/api?ac={ac}&h={h}&cjflag={flag}&cjurl={apis}';
-	var layer = layui.layer;
+	var home = $('.j-ajax', parent.document).attr('href').replace('/index/clear.html', '') + '/collect/api?';
+	var urls = home + 'ac={ac}&h={h}&cjflag={flag}&cjurl={apis}';
 	var form = layui.form;
-	comm.lister.each(urls);
+	var layer = layui.layer;
+	comm.lister.each(home, urls);
 	comm.search.init(urls);
 	comm.search.data();
 	comm.player.init();
 	comm.timing.init();
+	//comm.update.init();
 });
