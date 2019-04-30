@@ -3,7 +3,7 @@ var dcys = {
 		'rows': [{
 			'name': '苹果CMS大橙影视模板',
 			'urls': 'https://jq.qq.com/?_wv=1027&k=51Zakp5',
-			'pics': 'https://ws3.sinaimg.cn/large/007vLMz8ly1g1aa1umgn8j30xc03cn0k.jpg',
+			'pics': 'https://i0.wp.com/ws3.sinaimg.cn/large/007vLMz8ly1g1aa1umgn8j30xc03cn0k.jpg',
 			'tips': '苹果CMS大橙影视模板'
 		}]
 	},
