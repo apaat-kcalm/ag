@@ -126,8 +126,8 @@ var dcys = {
 			'flag': 'wolong',
 			'name': '卧龙云资源',
 			'rema': '跑马灯,右下角水印',
-			'apis': 'http://wolongzy.net/inc/s_api_mac_m3u8.php',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'apis': 'https://cj.wlzy.tv/inc/s_api_mac_m3u8.php',
+			'tips': '<span class="layui-badge layui-bg-green">国内分发</span>',
 			'coll': '卧龙在线,wlm3u8,991,1'
 		}, {
 			'flag': 'zuida',
