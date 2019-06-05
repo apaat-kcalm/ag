@@ -246,7 +246,7 @@ var dcys = {
 			'name': 'OK云资源',
 			'rema': '顶部跑马灯水印',
 			'apis': 'http://api.iokzy.com/inc/apickm3u8s.php',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'tips': '<span class="layui-badge layui-bg-green">速度极慢</span>',
 			'coll': '酷云在线,ckm3u8,978,1'
 		}, {
 			'flag': 'diguo',
