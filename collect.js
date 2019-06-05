@@ -364,7 +364,7 @@ var dcys = {
 			'name': 'OK云资源',
 			'rema': '迅雷下载',
 			'apis': 'http://api.iokzy.com/inc/apidown.php',
-			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
+			'tips': '<span class="layui-badge layui-bg-green">速度极慢</span>',
 			'coll': '迅雷下载,xunlei,998,1'
 		}, {
 			'flag': 'huagua',
