@@ -1293,8 +1293,8 @@ var comm = {
 			$(document).on('click', '.conceal', function() {
 				comm.cookie.set('fed_fuck', 'ok', 7);
 			});
-			$(document).on('click', '.search', function() {
-				if($('.layui-input-search').val() == '') return false;
+			$(document).on('click', '.searchs', function() {
+				//if($('.layui-input-search').val() == '') return false;
 				$('.layui-collect').html('<table class="layui-table"><thead><tr><td width="30" align="center">编号</td><td width="90" align="center">资源站</td><td>名称</td><td width="60" align="center">操作</td><td width="60" align="center">分类</td><td width="60" align="center">来源</td><td width="60" align="center">更新时间</td></tr></thead><tbody></tbody><tfoot><tr><td colspan="7" align="center">搜索中，请稍等...</td></tr></tfoot></table>');
 				var collec = dcys[$('select[name="collect"] option:selected').val()].rows;
 				comm.search.post(urls, collec, 0);
