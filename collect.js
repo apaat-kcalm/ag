@@ -161,7 +161,7 @@ var dcys = {
 			'flag': 'miaobo',
 			'name': '秒播云资源',
 			'rema': '顶部跑马灯水印',
-			'apis': 'https://www.miaobozy.com/api.php/provide/vod/from/miaom3u8/at/xml/',
+			'apis': 'https://www.solezy.com/api.php/provide/vod/from/som3u8/at/xml/',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
 			'coll': '秒播在线,miaom3u8,986,1'
 		}, {
