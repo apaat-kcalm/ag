@@ -163,7 +163,7 @@ var dcys = {
 			'rema': '顶部跑马灯水印',
 			'apis': 'https://www.solezy.com/api.php/provide/vod/from/som3u8/at/xml/',
 			'tips': '<span class="layui-badge layui-bg-green">国外节点</span>',
-			'coll': '秒播在线,miaom3u8,986,1'
+			'coll': '搜乐,som3u8,986,1'
 		}, {
 			'flag': 'mp4ba',
 			'name': 'MP4吧资源',
