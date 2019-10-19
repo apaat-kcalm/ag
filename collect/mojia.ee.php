@@ -1,8 +1,17 @@
-<?php if(!@$_SERVER['HTTP_REFERER']||!$_COOKIE["admin_name"]) header('location:http://'.$_SERVER['HTTP_HOST']);?>
+<?php
+ /**
+  * 名称:魔加资源采集插件
+  * 网址:http://mojia.ee
+  * 版本:苹果CMS v10
+  */
+ if (!@$_SERVER['HTTP_REFERER']||!$_COOKIE["admin_name"]) {
+     header('location:http://'.$_SERVER['HTTP_HOST']);
+ }
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
-<title>vfed采集资源</title>
+<title>魔加资源采集</title>
 <meta name="renderer" content="webkit" />
 <?php $vfed = require('../../application/extra/maccms.php'); ?>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
