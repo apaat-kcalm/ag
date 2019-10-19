@@ -24,19 +24,6 @@ var dcys = {
 			'tip4': '售后服务',
 			'url4': 'https://jq.qq.com/?_wv=1027&k=5yxZxwq'
 		}, {
-			'name': '高科技无广告解析',
-			'rema': '支持https',
-			'urls': '//jx.dy-jx.com/?url=',
-			'tips': '<span class="layui-badge layui-bg-green">推荐解析</span>',
-			'tip1': '优酷演示',
-			'url1': '//jx.dy-jx.com/?url=https://v.youku.com/v_show/id_XMjg5NzgyNjA5Mg==.html',
-			'tip2': '腾讯演示',
-			'url2': '//jx.dy-jx.com/?url=https://v.qq.com/x/cover/h188mdjtrh3up22.html',
-			'tip3': '奇艺演示',
-			'url3': '//jx.dy-jx.com/?url=https://www.iqiyi.com/v_19rrnzk2lc.html',
-			'tip4': '搜狐演示',
-			'url4': '//jx.dy-jx.com/?url=https://tv.sohu.com/v/MjAxNTEwMTUvbjQyMzM1NjM5NC5zaHRtbA==.html'
-		}, {
 			'name': '免费解析晚上有广告',
 			'rema': '支持https',
 			'urls': '//jx.aldsw.cn/jx/index.php?url=',
