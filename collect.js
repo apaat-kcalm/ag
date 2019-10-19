@@ -1111,7 +1111,7 @@ var dcys = {
 			'coll': '最新云播,xinyun,876,1'
 		}]
 	},
-	'fuck1': {
+	'fuck': {
 		'head': '叉站资源专区',
 		'tips': '叉站资源已关闭,如需采集请购买大橙影视模板,联系QQ<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1570457334&site=qq&menu=yes">1570457334</a>',
 		'rows': [{
