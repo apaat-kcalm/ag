@@ -1,51 +1,7 @@
-/**
- * 名称:魔加资源采集插件
- * 网址:http://mojia.ee
- * 版本:苹果CMS v10
- */
 var dcys = {
-	'pics': {
-		'rows': [{
-			'name': '苹果CMS魔加影视模板',
-			'urls': 'https://jq.qq.com/?_wv=1027&k=51Zakp5',
-			'pics': 'https://i0.wp.com/ws3.sinaimg.cn/large/007vLMz8ly1g1aa1umgn8j30xc03cn0k.jpg',
-			'tips': '苹果CMS魔加影视模板'
-		}]
-	},
-	'advs': {
-		'head': '广告投放 >>> 官方QQ群：<a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5UIPDzc">137183109</a> >>> 业务QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1278242793&site=qq&menu=yes">1278242793</a> >>>',
-		'tips': '如果对您的资源站排序不合理,请联系我修改',
-		'rows': [{
-			'name': '苹果CMS魔加影视模板',
-			'rema': 'http://mojia.ee',
-			'urls': 'http://mojia.ee',
-			'tips': '<span class="layui-badge layui-bg-red">吐血推荐</span>',
-			'tip1': '主题官网',
-			'url1': 'http://mojia.ee',
-			'tip2': '主题演示',
-			'url2': 'https://vfed.eu.org',
-			'tip3': '主题交流',
-			'url3': 'https://jq.qq.com/?_wv=1027&k=51Zakp5',
-			'tip4': '售后服务',
-			'url4': 'https://jq.qq.com/?_wv=1027&k=5yxZxwq'
-		}, {
-			'name': '免费解析晚上有广告',
-			'rema': '支持https',
-			'urls': '//jx.aldsw.cn/jx/index.php?url=',
-			'tips': '<span class="layui-badge layui-bg-green">夜间广告</span>',
-			'tip1': '优酷演示',
-			'url1': '//jx.aldsw.cn/jx/index.php?url=https://v.youku.com/v_show/id_XMjg5NzgyNjA5Mg==.html',
-			'tip2': '腾讯演示',
-			'url2': '//jx.aldsw.cn/jx/index.php?url=https://v.qq.com/x/cover/h188mdjtrh3up22.html',
-			'tip3': '奇艺演示',
-			'url3': '//jx.aldsw.cn/jx/index.php?url=https://www.iqiyi.com/v_19rrnzk2lc.html',
-			'tip4': '搜狐演示',
-			'url4': '//jx.aldsw.cn/jx/index.php?url=https://tv.sohu.com/v/MjAxNTEwMTUvbjQyMzM1NjM5NC5zaHRtbA==.html'
-		}]
-	},
 	'm3u8': {
 		'head': '切片资源专区',
-		'tips': '魔加影视模板推荐全站使用M3U8资源，支持自动播放下一集',
+		'tips': '',
 		'rows': [{
 			'flag': 'dbzyz',
 			'name': '豆瓣云资源',
@@ -603,7 +559,7 @@ var comm = {
 							else layer.alert('请求失败');
 						}).error(function(data) {
 						if (data.status == 404) {
-							layer.confirm('独立版暂不支持一键添加定时任务,请搭配魔加影视模板使用,如有需要请点击确定了解详情', {
+							layer.confirm('独立版暂不支持一键添加定时任务,请搭配影视模板使用,如有需要请点击确定了解详情', {
 								title: '提示',
 							}, function() {
 								location.href = 'http://t.cn/RBfAHG5';
@@ -631,7 +587,7 @@ var comm = {
 							else layer.alert('请求失败');
 						}).error(function(data) {
 						if (data.status == 404) {
-							layer.confirm('独立版暂不支持一键添加' + type + '器,请搭配魔加影视模板使用,如有需要请点击确定了解详情', {
+							layer.confirm('独立版暂不支持一键添加' + type + '器,请搭配影视模板使用,如有需要请点击确定了解详情', {
 								title: '提示',
 							}, function() {
 								location.href = 'http://t.cn/RBfAHG5';
@@ -666,7 +622,7 @@ var comm = {
 						else layer.alert('请求失败');
 					}).error(function(data) {
 						if (data.status == 404) {
-							layer.confirm('独立版暂不支持一键设置功能,请搭配魔加影视模板使用,如有需要请点击确定了解详情', {
+							layer.confirm('独立版暂不支持一键设置功能,请搭配影视模板使用,如有需要请点击确定了解详情', {
 								title: '提示',
 							}, function() {
 								location.href = 'http://t.cn/RBfAHG5';
