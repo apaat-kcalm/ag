@@ -10,6 +10,26 @@
 </head>
 <body>
 <div class="prism-player" id="player-con"></div>
+<script>
+var player = new Aliplayer({
+  "id": "player-con",
+  "source": "//player.alicdn.com/video/aliyunmedia.mp4",
+  "width": "100%",
+  "height": "500px",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": false,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "hover",
+  "useH5Prism": true
+}, function (player) {
+    console.log("The player is created");
+  }
+);
+</script>
+</body>
+
 
 <script type="text/javascript">
 function findGetParameter(parameterName) {
@@ -22,26 +42,8 @@ function findGetParameter(parameterName) {
     }
     return result;
 }
-
-var player = new Aliplayer({
-  "id": "player-con",
-  "source": "findGetParameter('url')",
-  "width": "100%",
-  "height": "500px",
-  "autoplay": true,
-  "isLive": false,
-  "rePlay": false,
-  "playsinline": true,
-  "preload": true,
-  "language": "zh-cn",
-  "controlBarVisibility": "hover",
-  "useH5Prism": true
-}, function (player) {
-    console.log("The player is created");
-  }
-);
+window.onload = function(){
+    var url = 'https://jiexi.hu123.top/index.php?url=' + findGetParameter('url');
+    document.getElementById('iframe').src = url;
+}
 </script>
-</body>
-
-
-
