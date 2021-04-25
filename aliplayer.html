@@ -25,7 +25,7 @@
 
 var player = new Aliplayer({
   "id": "player-con",
-  "source": "findGetParameter('url')",
+  "source": findGetParameter('url'),
   "width": "100%",
   "height": "500px",
   "autoplay": true,
@@ -37,7 +37,7 @@ var player = new Aliplayer({
   "useH5Prism": true
 }, function (player) {
     console.log("The player is created");
-  }}
+  }
 );
 </script>
 </body>
