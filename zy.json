@@ -46,7 +46,7 @@
     "key": "雅阁影视",
     "name": "雅阁影视",
     "api": "https://萝莉.eu.org/api.php/provide/vod/at/xml/",
-    "jiexiUrl": "https://api.ltzyplayer.com/m3u8/?url=",
+    "jiexiUrl": "",
     "group": "资源聚合",
     "isActive": true,
     "status": "可用",
