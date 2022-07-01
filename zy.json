@@ -12,20 +12,20 @@
   },
   {
     "id": 2,
-    "key": "胖猫影视(聚)",
-    "name": "胖猫影视(聚)",
-    "api": "http://www.pangmaotv.com/api.php/provide/vod/at/xml/",
-    "group": "#聚合",
+    "key": "快播资源",
+    "name": "快播",
+    "api": "http://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml/",
+    "group": "#资源",
     "isActive": true,
     "status": "可用",
     "reverseOrder": false
   },
   {
     "id": 3,
-    "key": "酷猫影视(聚)",
-    "name": "酷猫影视(聚)",
-    "api": "https://www.pgcms10.com/api.php/provide/vod/at/xml/",
-    "group": "#聚合",
+    "key": "八戒",
+    "name": "八戒",
+    "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
+    "group": "#资源站",
     "isActive": true,
     "status": "可用",
     "reverseOrder": false
