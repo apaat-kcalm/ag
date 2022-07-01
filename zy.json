@@ -35,7 +35,7 @@
     "key": "共青春(聚)",
     "name": "共青春(聚)",
     "api": "https://gqcyy.com/api.php/provide/vod/at/xml/",
-    "jiexiUrl": "https://jx.parwix.com:4433/player/?url=",
+    "jiexiUrl": "https://api.jiexi.la/?url=",
     "group": "#聚合",
     "isActive": true,
     "status": "可用",
