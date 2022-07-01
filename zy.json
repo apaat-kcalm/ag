@@ -94,20 +94,20 @@
   },
   {
     "id": 10,
-    "key": "速影(聚)",
-    "name": "速影(聚)",
-    "api": "https://速影128.xyz/inc/api.php",
-    "group": "#聚合",
+    "key": "奶茶",
+    "name": "奶茶",
+    "api": "https://caiji.naichaapi.com/inc/api.php",
+    "group": "#❌站",
     "isActive": true,
     "status": "可用",
     "reverseOrder": false
   },
   {
     "id": 11,
-    "key": "橘猫影视(聚)",
-    "name": "橘猫影视(聚)",
-    "api": "http://www.zitv.cc/api.php/provide/vod/at/xml/",
-    "group": "#聚合",
+    "key": "色猫",
+    "name": "色猫",
+    "api": "https://api.maozyapi.com/inc/api.php",
+    "group": "#❌站",
     "isActive": true,
     "status": "可用",
     "reverseOrder": false
