@@ -32,10 +32,9 @@
   },
   {
     "id": 4,
-    "key": "共青春(聚)",
-    "name": "共青春(聚)",
-    "api": "https://gqcyy.com/api.php/provide/vod/at/xml/",
-    "jiexiUrl": "https://api.jiexi.la/?url=",
+    "key": "天空",
+    "name": "天空",
+    "api": "https://m3u8.tiankongapi.com/api.php/provide/vod/at/xml/",
     "group": "#聚合",
     "isActive": true,
     "status": "可用",
@@ -54,10 +53,10 @@
   },
   {
     "id": 6,
-    "key": "MBO影视(聚)",
-    "name": "MBO影视(聚)",
-    "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml/",
-    "group": "#聚合",
+    "key": "无尽",
+    "name": "无尽",
+    "api": "https://api.wujinapi.com/api.php/provide/vod/from/wjm3u8/at/xml/",
+    "group": "#资源站",
     "isActive": true,
     "status": "可用",
     "reverseOrder": false
