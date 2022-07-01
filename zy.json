@@ -84,9 +84,9 @@
   },
   {
     "id": 9,
-    "key": "桃色",
-    "name": "桃色",
-    "api": "https://api.taoseapi.com/api.php/provide/vod/?ac=list",
+    "key": "老鸭",
+    "name": "老鸭",
+    "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
     "group": "#❌站",
     "isActive": true,
     "status": "可用",
