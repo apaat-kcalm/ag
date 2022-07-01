@@ -75,7 +75,7 @@
     "id": 8,
     "key": "花椒",
     "name": "花椒",
-    "api": "https://apihjzy.com/api.php/provide/vod/?ac=list",
+    "api": "https://apihjzy.com/api.php/provide/vod/at/xml",
     
     "group": "#❌站",
     "isActive": true,
